@@ -1,2 +1,5 @@
-# dand-advanced-2018
-personal repo for Udacity dand course 
+# Udacity dand-advanced-2018
+# Course:
+
+1. ​
+2. ​
