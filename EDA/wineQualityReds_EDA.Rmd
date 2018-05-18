@@ -1,0 +1,427 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+# EDA red Wine quality
+========================================================
+
+Number of Instances: red wine - 1599, Input variables (based on physicochemical tests):
+   1 - fixed acidity (tartaric acid - g / dm^3)
+   2 - volatile acidity (acetic acid - g / dm^3)
+   3 - citric acid (g / dm^3)
+   4 - residual sugar (g / dm^3)
+   5 - chlorides (sodium chloride - g / dm^3
+   6 - free sulfur dioxide (mg / dm^3)
+   7 - total sulfur dioxide (mg / dm^3)
+   8 - density (g / cm^3)
+   9 - pH
+   10 - sulphates (potassium sulphate - g / dm3)
+   11 - alcohol (% by volume)
+   Output variable (based on sensory data): 
+   12 - quality (score between 0 and 10)
+   
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, packages}
+# Load all of the packages that you end up using
+# in your analysis in this code chunk.
+
+# Notice that the parameter "echo" was set to FALSE for this code chunk.
+# This prevents the code from displaying in the knitted HTML output.
+# You should set echo=FALSE for all code chunks in your file.
+
+library(ggplot2)
+library(knitr)
+library(dplyr)
+library(memisc)
+```
+
+```{r echo=FALSE, Load_the_Data}
+# Load the Data
+rw <- read.csv('wineQualityReds.csv')
+
+View(rw)
+
+names(rw)
+
+str(rw)
+```
+
+# 
+```{r}
+summary(rw)
+```
+
+##  Checked the data
+```{r}
+length(!is.na(rw)) == (1599 * 13)
+# Means no any NA value in this dataset
+```
+
+# Univariate Plots Section
+
+```{r}
+table(rw$quality)
+
+# Plot quality counts
+ggplot(aes(x = quality), data = rw) + 
+  geom_histogram(binwidth = 0.5)
+
+## We can see the quality only including (3, 4, 5, 6, 7, 8) and center to 5 or 6
+```
+
+```{r}
+table(rw$alcohol)
+
+# Plot alcohol counts
+ggplot(aes(x = alcohol), data = rw) + 
+  geom_histogram(binwidth = 0.1) + 
+  coord_cartesian(xlim = c(9, 13))
+```
+
+```{r}
+table(rw$pH)
+
+# Plot pH counts
+ggplot(aes(x = pH), data = rw) + 
+  geom_histogram(aes(fill = 'red'), binwidth = 0.01)
+
+# most of value between 2.8-3.8
+```
+
+
+```{r}
+
+# Plot sulphates counts as this feature have a long tail, scale value by log
+ggplot(aes(x = sulphates), data = rw) + 
+  scale_x_log10() +
+  geom_histogram(binwidth = 0.01)
+
+## Below plot shows this feature have long tail and most value internel c(0.3, 1.0)
+```
+
+
+```{r}
+
+# Plot density counts
+ggplot(aes(x = density), data = rw) + 
+  geom_histogram()
+
+# The desity show a very good normal distribution
+```
+
+```{r}
+
+# Plot total.sulfur.dioxide counts
+ggplot(aes(x = total.sulfur.dioxide), data = rw) + 
+  geom_histogram()
+
+## Most of red wine total dioxide counts should be 0-80.
+```
+
+```{r}
+# Plot chlorides counts
+ggplot(aes(x = chlorides), data = rw) + 
+  geom_histogram(binwidth = 0.001) + 
+  coord_cartesian(xlim = c(0.03, 0.14))
+
+## Most of value between c(0.03, 0.14), and similar a normal distribution
+```
+
+```{r}
+# Plot fixed.acidity counts
+ggplot(aes(x = fixed.acidity), data = rw) + 
+  geom_histogram(binwidth = 0.1)
+```
+
+```{r}
+# Plot volatile.acidity counts
+ggplot(aes(x = volatile.acidity), data = rw) + 
+  geom_histogram(binwidth = 0.01)
+```
+
+
+```{r}
+# Plot volatile.acidity counts
+ggplot(aes(x = residual.sugar), data = rw) + 
+  geom_histogram(binwidth = 0.1) +
+  coord_cartesian(xlim = c(1.2, 3.2))
+
+## Most residual sugar value between c(1.2, 3.2), like a normal distribution
+```
+
+```{r}
+ggplot(aes(x = citric.acid), data = rw) +
+  xlab("citric acid")+
+  geom_bar(colour = "black", fill = "#990066")
+
+table(rw$citric.acid)
+## we can see most this value is 0, 0.02, 0.24,0.49
+```
+
+
+# Univariate Analysis
+
+### What is the structure of your dataset?
+1. Total 1599 observation, and very observation have 11 variable, and no na in it
+2. some features may relatives, such as free.sulfur.dioxide and total.sulfur.dioxide
+3. Some feature value are long tail, should clean it when do future analysis.
+
+
+### What is/are the main feature(s) of interest in your dataset?
+Main features is quality, we can based on other features to determind quality, we can some analysis to know which features positive affect the red wine quality, and others is opposite. 
+
+### What other features in the dataset do you think will help support your investigation into your feature(s) of interest?
+we can guess feature like residual.sugar, Ph, sulphates, chlorides, density and alcohol.
+
+
+### Did you create any new variables from existing variables in the dataset?
+
+
+
+### Of the features you investigated, were there any unusual distributions? Did you perform any operations on the data to tidy, adjust, or change the form of the data? If so, why did you do this?
+Except some long tail data is tidy except x is only index, no means in time. and sometime also found some data can need remove outlier data, like:
+
+```{r}
+ggplot(aes(x = free.sulfur.dioxide, y =  total.sulfur.dioxide), data = rw) + 
+  geom_point(aes(color = quality))
+```
+
+
+```{r}
+# We can two data of total.sulfur.dioxide more than 200, remove outlier
+rw2 <- subset(rw, rw$total.sulfur.dioxide < 200)
+
+ggplot(aes(x = free.sulfur.dioxide, y =  total.sulfur.dioxide), data = rw2) + 
+  geom_point(aes(color = quality))
+```
+
+# Bivariate Plots Section
+
+## ref to [How to read a box plot/Introduction to box plots](https://www.wellbeingatschool.org.nz/information-sheet/understanding-and-interpreting-box-plots)
+
+```{r}
+## Plot relations free.sulfur.dioxide with total.sulfur.dioxide
+ggplot(aes(y = free.sulfur.dioxide, x = total.sulfur.dioxide), data = rw2) +
+  geom_point(aes(color = quality), alpha = 1/2) +
+  stat_smooth(method = 'lm')
+
+## We can free.sulfur.dioxide relates with total.sulfur.dioxide, should be only consider one like total.sulfur.dioxide in future analysis.
+```
+
+
+```{r}
+## Plot ph and quality correction, 
+
+## transform quality to number
+rw2$quality <- as.numeric(rw2$quality)
+
+str(rw2)
+
+ggplot(aes(x = pH, y = quality), data = rw2) + 
+  geom_point(aes(color = quality), alpha = 1/2) +
+  stat_smooth(method = 'lm')
+
+## For below plot, features pH has a nagative affection the red wine quality
+```
+
+```{r}
+# Plot relation about total.sulfur.dioxide and quality
+ggplot(aes(x = total.sulfur.dioxide, y = quality), data = rw2) + 
+  geom_point(color = I('#F79420'), alpha = 1/4) +  
+             stat_smooth(method = 'lm')
+
+## We can see total.sulfur.dioxide have nagative affect 
+```
+
+```{r}
+ggplot(aes(x = residual.sugar , y = quality), data = rw2) + 
+  geom_point(color = I('#F79420'), alpha = 1/4) +  
+             stat_smooth(method = 'lm')
+
+## Looks like Residual.sugar  no affect for wine quality
+```
+
+```{r}
+ggplot(aes(x = chlorides, y = quality), data = rw2) + 
+  geom_point(color = I('#F79420'), alpha = 1/4) +  
+             stat_smooth(method = 'lm')
+
+## Based on below plot, alcohol have stronger positive affection the wine quality
+```
+
+```{r}
+ggplot(aes(x = alcohol, y = quality), data = rw2) + 
+  geom_point(color = I('#F79420'), alpha = 1/4) +  
+             stat_smooth(method = 'lm')
+
+## Based on below plot, alcohol have stronger positive affection the wine quality
+```
+
+```{r}
+ggplot(aes(x = sulphates, y = quality), data = rw2) + 
+  geom_point(color = I('red'), alpha = 1/2) +  
+             stat_smooth(method = 'lm')
+
+## Based on below plot, sulphates have stronger positive affection the wine quality
+```
+
+```{r}
+ggplot(aes(x = volatile.acidity, y = quality), data = rw2) +
+  geom_point() +
+  scale_x_log10(breaks=seq(.1,1,.1)) +
+  xlab("log10(volatile.acidity)") +
+  geom_smooth(method="lm")
+```
+
+# Bivariate Analysis
+
+### Talk about some of the relationships you observed in this part of the investigation. How did the feature(s) of interest vary with other features in the dataset?
+As upper plots shows, we know:
+1. Features chlorides, total.sulfur.dioxide and pH has nagative affection for red wine quality;
+2. Features sulphates, alcohol has positive affect for red wine quality
+3. Looks like Residual.sugar no affect for wine quality
+4. We know free.sulfur.dioxide relates with total.sulfur.dioxide, should be only consider one like total.sulfur.dioxide in future analysis.
+
+
+### Did you observe any interesting relationships between the other features (not the main feature(s) of interest)?
+
+```{r}
+## Plot citric.acid affect the pH
+
+## citric acid is  small quantities, citric acid can add 'freshness' and flavor to wines, should be > 0.
+ggplot(data = subset(rw2, citric.acid > 0), aes(x = citric.acid, y = pH)) +
+  geom_point() +
+  scale_x_log10() +
+  xlab("log10(citric.acid)") +
+  geom_smooth(method="lm")
+```
+Based on below plot, we know followed citric.acid increase the pH turn acidic, that's meets our knowledge.
+
+### What was the strongest relationship you found?
+```{r}
+## Plot fixed.acidity affect the pH
+ggplot(aes(x = fixed.acidity, y = pH), data = rw2) +
+  geom_point() +
+  #scale_x_log10() +
+  xlab("fixed.acidity") +
+  geom_smooth(method="lm")
+```
+We can see the fixed.acidity has stronger relationship with pH.
+
+
+# Multivariate Plots Section
+
+```{r}
+## Plot fixed.acidity, alcohol and quality relations
+
+ggplot(aes(y = sulphates, x = alcohol,
+           color = quality), data = rw2) + 
+  geom_line() +
+  # select fixed.acidity
+  scale_y_continuous(limits=c(0.3, 1.2)) +
+  facet_wrap(~quality)
+
+```
+In part2 we know sulphates and alcohol all have postive affection for wine quality, upper plots also shows, high quality wine have high alcohol and fixed.acidity.
+
+
+```{r}
+## Plot chlorides, alcohol and quality relations
+ggplot(aes(x = chlorides, y = residual.sugar), data = rw2) + 
+  geom_point(size = 3, shape = 1) +
+  scale_x_continuous(limits=c(0.05, 0.2)) +
+  scale_y_continuous(limits=c(1, 8)) +
+  facet_wrap(~quality) 
+
+## No found obvious affection for those feature
+```
+
+# Multivariate Analysis
+
+### Talk about some of the relationships you observed in this part of the investigation. Were there features that strengthened each other in terms of looking at your feature(s) of interest?
+From upper plot, looks like better quality red wine always has high alcohol and high sulphate concentrations.
+
+### Were there any interesting or surprising interactions between features?
+I just found salt residual.sugar all no any affect to wine quality.
+
+### OPTIONAL: Did you create any models with your dataset? Discuss the strengths and limitations of your model.
+
+```{r Building the Linear Model}
+## Select 80% as training data, others as test data
+training_data <- sample_frac(rw2, .8)
+
+test_data <- rw2[!rw2$X %in% training_data$X, ]
+
+## built model
+m1 <- lm(quality ~ alcohol, data = training_data)
+m2 <- update(m1, ~ . + sulphates)
+m3 <- update(m2, ~ . + total.sulfur.dioxide)
+m4 <- update(m3, ~ . + chlorides)
+m5 <- update(m4, ~ . + pH)
+mtable(m1, m2, m3, m4, m5)
+
+## cal error
+df <- data.frame(
+  test_data$quality,
+  predict(m5, test_data) - test_data$quality)
+
+names(df) <- c("quality", "error")
+
+ggplot(aes(x = quality, y = error), data = df) +
+  geom_boxplot()
+
+## error close 0, means we can use upper features to determine red wine qaulity
+```
+
+
+-----
+# Final Plots and Summary
+
+### Plot One
+```{r echo=FALSE, Plot_One}
+ggplot(aes(x = quality, color = I('red')), data = rw) + 
+  geom_histogram(binwidth = 0.5) +
+  ylab("Count of Quality") +
+  ggtitle("Red Wine Qaulity Distribution")
+```
+
+### Description One
+In this data set most of quality is 5 or 6, not enough bad/best quality to do analysis, so that this dataset may not good for adjust very good red wine.
+
+### Plot Two
+```{r echo=FALSE, Plot_Two}
+
+ggplot(aes(y = sulphates, x = alcohol,
+           color = quality), data = rw2) + 
+  geom_point() +
+  # select fixed.acidity
+  scale_y_continuous(limits=c(0.4, 1.0)) +
+  xlab("potassium sulphate (g/dm3)") +
+  ylab("alcohol (% by volume)") +
+  ggtitle("Alcohol and sulphates affection for red wine quality") + 
+  facet_wrap(~quality)
+```
+
+### Description Two
+From upper plot, we know sulphate and alcohol all have affection the red wine quality.
+
+### Plot Three
+```{r echo=FALSE, Plot_Three}
+ggplot(aes(x = quality, y = error), data = df) +
+  geom_point()
+```
+
+### Description Three
+As we have enough data for bad/good(> 7 or < 4) quality, we can use this dataset do linear regression shows error are very big. 
+------
+
+# Reflection
+Try to use R to analysis red wine data, to find out what's features will affection red wine quality. 
+1. Try use Univariate Analysis single feature relationship with wine quality;
+
+2. use Bivariate to analysis more feature affect the wine quality;
+
+3. also try use linear regression use top 5 features to analysis prediction quality. 
+
+and, R is  very different with python, need more exercise to familary this tools, in fact, like ggplot2 is very good plot package, it's more simple than matplotlib in python.
