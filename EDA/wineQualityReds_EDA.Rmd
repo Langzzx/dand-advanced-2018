@@ -3,38 +3,29 @@ output:
   html_document: default
   pdf_document: default
 ---
-# EDA red Wine quality
-========================================================
+# EDA Red Wine quality
 
-Number of Instances: red wine - 1599, Input variables (based on physicochemical tests):
-   1 - fixed acidity (tartaric acid - g / dm^3)
-   2 - volatile acidity (acetic acid - g / dm^3)
-   3 - citric acid (g / dm^3)
-   4 - residual sugar (g / dm^3)
-   5 - chlorides (sodium chloride - g / dm^3
-   6 - free sulfur dioxide (mg / dm^3)
-   7 - total sulfur dioxide (mg / dm^3)
-   8 - density (g / cm^3)
-   9 - pH
-   10 - sulphates (potassium sulphate - g / dm3)
-   11 - alcohol (% by volume)
-   Output variable (based on sensory data): 
-   12 - quality (score between 0 and 10)
-   
+```{r global_options, include=FALSE}
+# echo = False: to hidden R source code in the output files.
+# message = FALSE: to hidden message emiited by ```message()``` in output files.
+# warning = FALSE: to hidden warning (produced by ```warning()``` in output files.
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, packages}
+# Data set introduce
+
+```{r - load packages}
 # Load all of the packages that you end up using
-# in your analysis in this code chunk.
-
-# Notice that the parameter "echo" was set to FALSE for this code chunk.
-# This prevents the code from displaying in the knitted HTML output.
-# You should set echo=FALSE for all code chunks in your file.
 
 library(ggplot2)
 library(knitr)
 library(dplyr)
 library(memisc)
+library(GGally)
 ```
+
+数据的具体情况如下：
+
 
 ```{r echo=FALSE, Load_the_Data}
 # Load the Data
@@ -47,303 +38,355 @@ names(rw)
 str(rw)
 ```
 
-# 
+
 ```{r}
 summary(rw)
 ```
 
-##  Checked the data
-```{r}
-length(!is.na(rw)) == (1599 * 13)
-# Means no any NA value in this dataset
+```{r - built plot function to avoid repeat code}
+plot_histogram <- function(varname, binwidth = 0.1) {
+  return(ggplot(aes_string(x = varname), data = rw) +
+           geom_histogram(binwidth = binwidth))}
 ```
+
 
 # Univariate Plots Section
 
 ```{r}
 table(rw$quality)
 
-# Plot quality counts
-ggplot(aes(x = quality), data = rw) + 
-  geom_histogram(binwidth = 0.5)
+## quality is categorical data,  we can use bar chart than histogram.
+ggplot(aes(x = factor(quality)), data = rw) +
+  geom_bar() +
+  labs(title = "Wine Qaulity Distribution(Barchart)")
+  
+#plot_histogram('quality', binwidth = 0.5)
+```
 
-## We can see the quality only including (3, 4, 5, 6, 7, 8) and center to 5 or 6
+从上图可以看到，红酒品质的数据分布并不均匀，主要品质是5和6.
+
+```{r}
+rw$quality.levels <- cut(rw$quality, 
+                          c(2, 5, 6, 9),
+                          labels=c('Low_Q','Meddle_Q','High_Q'))
+
+table(rw$quality.levels)
+```
+
+
+```{r}
+summary(rw$alcohol)
 ```
 
 ```{r}
-table(rw$alcohol)
-
 # Plot alcohol counts
-ggplot(aes(x = alcohol), data = rw) + 
-  geom_histogram(binwidth = 0.1) + 
-  coord_cartesian(xlim = c(9, 13))
+plot_histogram('alcohol') + xlim(9, 13)
 ```
 
 ```{r}
-table(rw$pH)
-
 # Plot pH counts
-ggplot(aes(x = pH), data = rw) + 
-  geom_histogram(aes(fill = 'red'), binwidth = 0.01)
-
-# most of value between 2.8-3.8
+plot_histogram('pH', binwidth = 0.01) 
 ```
+
+红酒pHz值主要分布在2.8-3.8， 呈酸性。
 
 
 ```{r}
+summary(rw$sulphates)
 
 # Plot sulphates counts as this feature have a long tail, scale value by log
 ggplot(aes(x = sulphates), data = rw) + 
-  scale_x_log10() +
+  scale_x_log10(breaks = seq(0, 2, .2)) +
   geom_histogram(binwidth = 0.01)
-
-## Below plot shows this feature have long tail and most value internel c(0.3, 1.0)
 ```
+
+红酒的特征sulphates数据是长尾分布，取值区间主要为(0.3, 1.2)
 
 
 ```{r}
-
 # Plot density counts
-ggplot(aes(x = density), data = rw) + 
-  geom_histogram()
-
-# The desity show a very good normal distribution
+plot_histogram('density', binwidth = 0.001)
 ```
 
-```{r}
+红酒的desity呈正太分布.
 
+```{r}
 # Plot total.sulfur.dioxide counts
 ggplot(aes(x = total.sulfur.dioxide), data = rw) + 
+  scale_x_log10(breaks = seq(0, 200, 10)) +
   geom_histogram()
-
-## Most of red wine total dioxide counts should be 0-80.
 ```
+
+红酒的特征total.sulfur.dioxide呈长尾分布，主要取值范围在区间（5-80）.
+
+```{r}
+# Plot free.sulfur.dioxide counts
+plot_histogram('free.sulfur.dioxide', binwidth = 1) + xlim(0, 40)
+```
+
+红酒的特征free.sulfur.dioxide呈长尾分布，主要取值范围在区间（0-40）
 
 ```{r}
 # Plot chlorides counts
-ggplot(aes(x = chlorides), data = rw) + 
-  geom_histogram(binwidth = 0.001) + 
+plot_histogram('chlorides', binwidth = 0.001) + 
   coord_cartesian(xlim = c(0.03, 0.14))
-
-## Most of value between c(0.03, 0.14), and similar a normal distribution
 ```
+
+红酒的特征chlorides呈正态分布，主要取值范围在区间（0.03, 0.14）.
+
 
 ```{r}
 # Plot fixed.acidity counts
-ggplot(aes(x = fixed.acidity), data = rw) + 
-  geom_histogram(binwidth = 0.1)
+plot_histogram('fixed.acidity') + 
+  scale_x_continuous(breaks = seq(5, 13))
 ```
 
 ```{r}
+summary(rw$fixed.acidity)
+```
+
+红酒的特征fixed.acidity主要取值范围在区间（5, 12), 均值为8.32.
+
+
+```{r}
+summary(rw$volatile.acidity)
+
 # Plot volatile.acidity counts
-ggplot(aes(x = volatile.acidity), data = rw) + 
-  geom_histogram(binwidth = 0.01)
+plot_histogram('volatile.acidity', binwidth = 0.01) + 
+  coord_cartesian(xlim = c(0.2, 1.0))
+
 ```
+
+红酒的特征volatile.acidity主要取值范围在区间（0.2, 1.0), 均值为0.5278.
 
 
 ```{r}
-# Plot volatile.acidity counts
-ggplot(aes(x = residual.sugar), data = rw) + 
-  geom_histogram(binwidth = 0.1) +
-  coord_cartesian(xlim = c(1.2, 3.2))
+summary(rw$residual.sugar)
 
-## Most residual sugar value between c(1.2, 3.2), like a normal distribution
+# Plot residual.sugar counts
+plot_histogram('residual.sugar', binwidth = 0.02) + 
+  scale_x_log10(breaks = seq(2, 20, 2))
 ```
+
+红酒中糖分留存量（residual sugar）取值在 (1.9, 2.6), 长尾分布。
+
 
 ```{r}
-ggplot(aes(x = citric.acid), data = rw) +
-  xlab("citric acid")+
-  geom_bar(colour = "black", fill = "#990066")
-
-table(rw$citric.acid)
-## we can see most this value is 0, 0.02, 0.24,0.49
+plot_histogram('citric.acid', binwidth = 0.01) + 
+  xlim(0, 0.75)
 ```
+
+可以看到有四个取值数特别高：0, 0.02, 0.24,0.49
 
 
 # Univariate Analysis
 
 ### What is the structure of your dataset?
-1. Total 1599 observation, and very observation have 11 variable, and no na in it
-2. some features may relatives, such as free.sulfur.dioxide and total.sulfur.dioxide
-3. Some feature value are long tail, should clean it when do future analysis.
+1. 出去X为索引数，总共1599观察数据，每个数据有11个数值变量，还有一个品质评定的分类的变量，没有无效特征值。
+2. 一些特征数据有长尾，如residual.sugar
+3. 一些特征数据有红酒的特征呈正态分布，如chlorides，主要取值范围集中区间（0.03, 0.14）
 
 
 ### What is/are the main feature(s) of interest in your dataset?
-Main features is quality, we can based on other features to determind quality, we can some analysis to know which features positive affect the red wine quality, and others is opposite. 
+alcohol和Ph, sulphates
 
 ### What other features in the dataset do you think will help support your investigation into your feature(s) of interest?
-we can guess feature like residual.sugar, Ph, sulphates, chlorides, density and alcohol.
+比如residual.sugar, , chlorides, density and 
 
 
 ### Did you create any new variables from existing variables in the dataset?
 
+新增了一个品质等级，相应的总数为：
+  - Low_Q：744 
+  
+  - Meddle_Q：638
+  
+  - High_Q：217
 
 
 ### Of the features you investigated, were there any unusual distributions? Did you perform any operations on the data to tidy, adjust, or change the form of the data? If so, why did you do this?
-Except some long tail data is tidy except x is only index, no means in time. and sometime also found some data can need remove outlier data, like:
+有些数据存在长尾现象，进行相应的规范处理。这样可以让数据图看起来更明了，更容易抓住其中隐藏的信息。
 
-```{r}
-ggplot(aes(x = free.sulfur.dioxide, y =  total.sulfur.dioxide), data = rw) + 
-  geom_point(aes(color = quality))
-```
-
-
-```{r}
-# We can two data of total.sulfur.dioxide more than 200, remove outlier
-rw2 <- subset(rw, rw$total.sulfur.dioxide < 200)
-
-ggplot(aes(x = free.sulfur.dioxide, y =  total.sulfur.dioxide), data = rw2) + 
-  geom_point(aes(color = quality))
-```
 
 # Bivariate Plots Section
 
 ## ref to [How to read a box plot/Introduction to box plots](https://www.wellbeingatschool.org.nz/information-sheet/understanding-and-interpreting-box-plots)
 
-```{r}
-## Plot relations free.sulfur.dioxide with total.sulfur.dioxide
-ggplot(aes(y = free.sulfur.dioxide, x = total.sulfur.dioxide), data = rw2) +
-  geom_point(aes(color = quality), alpha = 1/2) +
-  stat_smooth(method = 'lm')
+```{r fig.width=10, fig.height=10}
 
-## We can free.sulfur.dioxide relates with total.sulfur.dioxide, should be only consider one like total.sulfur.dioxide in future analysis.
+# ref to:  https://briatte.github.io/ggcorr/
+
+# remove x, as it just index
+rw2 <- rw[2:13]
+
+ggcorr(rw2,
+       method = c("all.obs", "spearman"),
+       nbreaks = 4, palette = "PuOr", label = TRUE,
+       name = "spearman correlation coeff.(rho)",
+       hjust = 0.8, angle = -70, size=9) +
+  ggtitle("Spearman Correlation coefficient Matrix")
 ```
 
+ggcorr函数整体查看下变量之间的相关性，由上图相互间相关系数可知，对红酒品质的影响可以分：
+1. alcohol和sulphol都是强正相关；
+2. fixed.acidity和citric.acid都是弱正相关；
+3. volatile.acidity强负相关；
+4. chlorides, density弱负相关
+
+当然，有些特征间相关性极高，还可以看到pH与fixed.acidity相关性高，但对品质相关性为0，很十奇怪。
+
 
 ```{r}
-## Plot ph and quality correction, 
+## Plot relations alcohol with quality
+ggplot(aes(x = factor(quality), y = alcohol), data = rw) +
+  geom_jitter(alpha = 1/10) +
+  geom_boxplot(alpha = 1/10, color = 'blue') +
+  stat_summary(fun.y = 'mean', geom = 'point', color = 'red') +
+  labs(x = "Quality (score between 3 and 9)",
+       y = "Alcohol (% by volume)",
+       title = "Boxplot of alcohol across Red Wine qualities")
+```
 
-## transform quality to number
-rw2$quality <- as.numeric(rw2$quality)
+由上图明显看出，酒精度对品质有明显的影响。
 
-str(rw2)
+density对酒精度有明显的负影响，那它们间的关系有如何呢？
 
-ggplot(aes(x = pH, y = quality), data = rw2) + 
-  geom_point(aes(color = quality), alpha = 1/2) +
-  stat_smooth(method = 'lm')
+```{r}
+## Plot relations alcohol with density
+ggplot(aes(x = density, y = alcohol), data = rw) +
+  geom_jitter(alpha = 1/5) +
+  geom_smooth(method = 'lm') +
+  labs(x = "Density (mg/l)",
+       y = "Alcohol (% by volume)",
+       title = "Relationship of alcohol vs density")
+```
 
-## For below plot, features pH has a nagative affection the red wine quality
+随着浓度的升高，酒精度下降了。
+
+```{r}
+## Plot relations volatile.acidity with quality
+ggplot(aes(x = factor(quality), y = volatile.acidity), data = rw) +
+  geom_jitter(alpha = 1/10) +
+  geom_boxplot(alpha = 1/10, color = 'blue') +
+  stat_summary(fun.y = 'mean', geom = 'point', color = 'red') +
+  scale_y_continuous(breaks = seq(0.1, 1.1, 0.2))
+  labs(x = "Quality (score between 3 and 9)",
+       y = "volatile.acidity (acetic acid - g/dm^3)",
+       title = "Boxplot of volatile.acidity across Red Wine qualities")
+```
+
+由上图明显看出，volatile.acidity对品质有明显的负影响。
+
+```{r}
+## Plot relations volatile.acidity with quality
+ggplot(aes(x = factor(quality), y = pH), data = rw) +
+  geom_jitter(alpha = 1/10) +
+  geom_boxplot(alpha = 1/10, color = 'blue') +
+  stat_summary(fun.y = 'mean', geom = 'point', color = 'red') +
+  ylim(2.9, 3.7) + 
+  labs(x = "Quality (score between 3 and 9)",
+       y = "volatile.acidity (acetic acid - g/dm^3)",
+       title = "Boxplot of volatile.acidity across Red Wine qualities")
+```
+
+看上图，pH似乎对品质还是有一点点的影响， 具体的相关系数计算如下为：-0.05773139，其实也并非为0.
+
+```{r}
+cor(rw$pH, rw$quality)
 ```
 
 ```{r}
-# Plot relation about total.sulfur.dioxide and quality
-ggplot(aes(x = total.sulfur.dioxide, y = quality), data = rw2) + 
-  geom_point(color = I('#F79420'), alpha = 1/4) +  
-             stat_smooth(method = 'lm')
-
-## We can see total.sulfur.dioxide have nagative affect 
+## Plot relations sulphates with quality
+ggplot(aes(x = factor(quality), y = sulphates), data = rw) +
+  geom_jitter(alpha = 1/10) +
+  geom_boxplot(alpha = 1/10, color = 'blue') +
+  stat_summary(fun.y = 'mean', geom = 'point', color = 'red') +
+  labs(x = "Quality (score between 3 and 9)",
+       y = "sulphates (potassium sulphate - g/dm3)",
+       title = "Boxplot of sulphates across Red Wine qualities")
 ```
-
 ```{r}
-ggplot(aes(x = residual.sugar , y = quality), data = rw2) + 
-  geom_point(color = I('#F79420'), alpha = 1/4) +  
-             stat_smooth(method = 'lm')
-
-## Looks like Residual.sugar  no affect for wine quality
+cor(rw$sulphates, rw$quality)
 ```
 
+看上图，sulphates对品质还是相当的影响， 具体的相关系数： 0.2513971.
+
+
+citric.acid和volatile.acidity对红酒品质影响十相反的，那相互之间呢？
 ```{r}
-ggplot(aes(x = chlorides, y = quality), data = rw2) + 
-  geom_point(color = I('#F79420'), alpha = 1/4) +  
-             stat_smooth(method = 'lm')
-
-## Based on below plot, alcohol have stronger positive affection the wine quality
+## Plot relations sulphates with quality
+ggplot(aes(x = citric.acid, y = volatile.acidity), data = rw) +
+  geom_jitter(alpha = 1/10) +
+  ylim(0.1, 1.1) + 
+  geom_smooth(method = 'lm') + 
+  labs(x = "citric.acid (g/dm^3)",
+       y = "volatile.acidity (acetic acid - g/dm^3)",
+       title = "Relationship of citric.acid vs volatile.acidity")
 ```
 
-```{r}
-ggplot(aes(x = alcohol, y = quality), data = rw2) + 
-  geom_point(color = I('#F79420'), alpha = 1/4) +  
-             stat_smooth(method = 'lm')
-
-## Based on below plot, alcohol have stronger positive affection the wine quality
-```
-
-```{r}
-ggplot(aes(x = sulphates, y = quality), data = rw2) + 
-  geom_point(color = I('red'), alpha = 1/2) +  
-             stat_smooth(method = 'lm')
-
-## Based on below plot, sulphates have stronger positive affection the wine quality
-```
-
-```{r}
-ggplot(aes(x = volatile.acidity, y = quality), data = rw2) +
-  geom_point() +
-  scale_x_log10(breaks=seq(.1,1,.1)) +
-  xlab("log10(volatile.acidity)") +
-  geom_smooth(method="lm")
-```
+citric.acid与volatile.acidity含量是负相关的。
 
 # Bivariate Analysis
 
 ### Talk about some of the relationships you observed in this part of the investigation. How did the feature(s) of interest vary with other features in the dataset?
-As upper plots shows, we know:
-1. Features chlorides, total.sulfur.dioxide and pH has nagative affection for red wine quality;
-2. Features sulphates, alcohol has positive affect for red wine quality
-3. Looks like Residual.sugar no affect for wine quality
-4. We know free.sulfur.dioxide relates with total.sulfur.dioxide, should be only consider one like total.sulfur.dioxide in future analysis.
+
+1. pH似乎对品质还是有一点点的影响，但很小；
+
+2. sulphates对品质还是相当高的影响；
+
+3. citric.acid与volatile.acidity含量是负相关的
 
 
 ### Did you observe any interesting relationships between the other features (not the main feature(s) of interest)?
 
-```{r}
-## Plot citric.acid affect the pH
-
-## citric acid is  small quantities, citric acid can add 'freshness' and flavor to wines, should be > 0.
-ggplot(data = subset(rw2, citric.acid > 0), aes(x = citric.acid, y = pH)) +
-  geom_point() +
-  scale_x_log10() +
-  xlab("log10(citric.acid)") +
-  geom_smooth(method="lm")
-```
-Based on below plot, we know followed citric.acid increase the pH turn acidic, that's meets our knowledge.
+density对酒精度（alcohol）有明显的负影响，随着浓度的升高，酒精度下降了。
 
 ### What was the strongest relationship you found?
-```{r}
-## Plot fixed.acidity affect the pH
-ggplot(aes(x = fixed.acidity, y = pH), data = rw2) +
-  geom_point() +
-  #scale_x_log10() +
-  xlab("fixed.acidity") +
-  geom_smooth(method="lm")
-```
-We can see the fixed.acidity has stronger relationship with pH.
+酒精度（alcohol）对红酒品质有非常强的影响
 
 
 # Multivariate Plots Section
 
 ```{r}
-## Plot fixed.acidity, alcohol and quality relations
-
-ggplot(aes(y = sulphates, x = alcohol,
-           color = quality), data = rw2) + 
-  geom_line() +
-  # select fixed.acidity
-  scale_y_continuous(limits=c(0.3, 1.2)) +
-  facet_wrap(~quality)
-
+ggplot(aes(x = density, y = alcohol, color = quality.levels),
+       data = rw) +
+  coord_cartesian(xlim = c(0.989, 1.005),
+                  ylim = c(7, 15)) +
+  geom_jitter(size = 1) + 
+  geom_smooth(method = 'lm') +
+  scale_x_continuous(breaks = seq(0.985, 1.002, 0.002)) +
+  scale_color_brewer(type='seq', guide = guide_legend(title = 'Quality levels')) +
+  theme_dark() +
+  labs(x = "Density (mg/l)",
+       y = "Alcohol (% b volume)",
+       title = "Relationship of density VS alcolhol with colored by quality")
 ```
-In part2 we know sulphates and alcohol all have postive affection for wine quality, upper plots also shows, high quality wine have high alcohol and fixed.acidity.
 
+上图可知，一般来说，品评好酒需要density／alcohol两个一起看。
 
 ```{r}
-## Plot chlorides, alcohol and quality relations
-ggplot(aes(x = chlorides, y = residual.sugar), data = rw2) + 
-  geom_point(size = 3, shape = 1) +
-  scale_x_continuous(limits=c(0.05, 0.2)) +
-  scale_y_continuous(limits=c(1, 8)) +
-  facet_wrap(~quality) 
-
-## No found obvious affection for those feature
+ggplot(aes(x = volatile.acidity, y = alcohol, color = quality.levels),
+       data = rw) +
+  coord_cartesian(xlim = c(0.1, 1.1), ylim = c(8, 15)) +
+  geom_jitter(size = 1) + 
+  geom_smooth(method = 'lm') +
+  scale_color_brewer(type='seq', guide = guide_legend(title = 'Quality levels')) +
+  theme_dark() +
+  labs(x = "Volatile.acidity (acetic acid - g / dm^3)",
+       y = "Alcohol (% b volume)",
+       title = "Relationship of volatile.acidity VS alcolhol with colored by quality")
 ```
+
+上图可分析出，当volatile.acidity／alcohol两个都标注的时候，只需看酒精度就能判断红酒品质高低。
+
 
 # Multivariate Analysis
 
 ### Talk about some of the relationships you observed in this part of the investigation. Were there features that strengthened each other in terms of looking at your feature(s) of interest?
-From upper plot, looks like better quality red wine always has high alcohol and high sulphate concentrations.
+品评好酒需要density／alcohol两个一起看。
 
 ### Were there any interesting or surprising interactions between features?
-I just found salt residual.sugar all no any affect to wine quality.
+当volatile.acidity／alcohol两个都标注的时候，只需看酒精度就能判断红酒品质高低。
 
 ### OPTIONAL: Did you create any models with your dataset? Discuss the strengths and limitations of your model.
 
@@ -351,12 +394,12 @@ I just found salt residual.sugar all no any affect to wine quality.
 ## Select 80% as training data, others as test data
 training_data <- sample_frac(rw2, .8)
 
-test_data <- rw2[!rw2$X %in% training_data$X, ]
+test_data <- rw[!rw$X %in% training_data$X, ]
 
 ## built model
 m1 <- lm(quality ~ alcohol, data = training_data)
 m2 <- update(m1, ~ . + sulphates)
-m3 <- update(m2, ~ . + total.sulfur.dioxide)
+m3 <- update(m2, ~ . + volatile.acidity)
 m4 <- update(m3, ~ . + chlorides)
 m5 <- update(m4, ~ . + pH)
 mtable(m1, m2, m3, m4, m5)
@@ -369,59 +412,57 @@ df <- data.frame(
 names(df) <- c("quality", "error")
 
 ggplot(aes(x = quality, y = error), data = df) +
-  geom_boxplot()
-
-## error close 0, means we can use upper features to determine red wine qaulity
+  geom_point()
 ```
+我们的模型可以推算误差靠近0，但是不同品质的酒结果并不一样。
 
-
------
 # Final Plots and Summary
 
 ### Plot One
-```{r echo=FALSE, Plot_One}
-ggplot(aes(x = quality, color = I('red')), data = rw) + 
-  geom_histogram(binwidth = 0.5) +
-  ylab("Count of Quality") +
-  ggtitle("Red Wine Qaulity Distribution")
+```{r}
+ggplot(aes(x = quality.levels), data = rw) +
+  geom_bar() +
+  labs(title = "Wine Qaulity Distribution(Barchart)")
 ```
 
 ### Description One
-In this data set most of quality is 5 or 6, not enough bad/best quality to do analysis, so that this dataset may not good for adjust very good red wine.
+根据红酒的评分，划分了三个等级，相应的分布如上所示，低品质的酒要明显高于高品质，看来买到好酒不容易。
 
 ### Plot Two
-```{r echo=FALSE, Plot_Two}
-
-ggplot(aes(y = sulphates, x = alcohol,
-           color = quality), data = rw2) + 
-  geom_point() +
-  # select fixed.acidity
-  scale_y_continuous(limits=c(0.4, 1.0)) +
-  xlab("potassium sulphate (g/dm3)") +
-  ylab("alcohol (% by volume)") +
-  ggtitle("Alcohol and sulphates affection for red wine quality") + 
-  facet_wrap(~quality)
+```{r}
+## Plot relations alcohol with quality
+ggplot(aes(x = factor(quality), y = alcohol), data = rw) +
+  geom_jitter(alpha = 1/10) +
+  geom_boxplot(alpha = 1/10, color = 'blue') +
+  stat_summary(fun.y = 'mean', geom = 'point', color = 'red') +
+  labs(x = "Quality (score between 3 and 9)",
+       y = "Alcohol (% by volume)",
+       title = "Boxplot of alcohol across Red Wine qualities")
 ```
 
 ### Description Two
-From upper plot, we know sulphate and alcohol all have affection the red wine quality.
+由上图明显看出，酒精度对品质有明显的影响。所以，买酒先看酒精度数。
 
 ### Plot Three
-```{r echo=FALSE, Plot_Three}
-ggplot(aes(x = quality, y = error), data = df) +
-  geom_point()
+```{r}
+ggplot(aes(x = density, y = alcohol, color = quality.levels),
+       data = rw) +
+  coord_cartesian(xlim = c(0.989, 1.005),
+                  ylim = c(7, 15)) +
+  geom_jitter(size = 1) + 
+  geom_smooth(method = 'lm') +
+  scale_x_continuous(breaks = seq(0.985, 1.002, 0.002)) +
+  scale_color_brewer(type='seq', guide = guide_legend(title = 'Quality levels')) +
+  theme_dark() +
+  labs(x = "Density (mg/l)",
+       y = "Alcohol (% b volume)",
+       title = "Relationship of density VS alcolhol with colored by quality")
 ```
 
 ### Description Three
-As we have enough data for bad/good(> 7 or < 4) quality, we can use this dataset do linear regression shows error are very big. 
-------
+density／alcohol都对红酒的品质有明显的影响。
 
 # Reflection
-Try to use R to analysis red wine data, to find out what's features will affection red wine quality. 
-1. Try use Univariate Analysis single feature relationship with wine quality;
-
-2. use Bivariate to analysis more feature affect the wine quality;
-
-3. also try use linear regression use top 5 features to analysis prediction quality. 
-
-and, R is  very different with python, need more exercise to familary this tools, in fact, like ggplot2 is very good plot package, it's more simple than matplotlib in python.
+1. 通过本次作业，熟练R相关的操作，特别ggplot，相关作图非常清晰，简单。虽然与python语法很大不同，但操作更简单。
+2. 分析模型那部分可看到，数据少的组，得出的错误率明显要高，怎么提高模型的精度是下一步可以进行的学习。
+3. 如何分析更多，不那么整洁的数据，还需要更多的练习。
