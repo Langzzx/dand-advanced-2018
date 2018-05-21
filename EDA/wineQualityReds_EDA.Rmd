@@ -26,7 +26,6 @@ library(GGally)
 
 数据的具体情况如下：
 
-
 ```{r echo=FALSE, Load_the_Data}
 # Load the Data
 rw <- read.csv('wineQualityReds.csv')
@@ -51,6 +50,8 @@ plot_histogram <- function(varname, binwidth = 0.1) {
 
 
 # Univariate Plots Section
+
+红酒品质的分布：
 
 ```{r}
 table(rw$quality)
@@ -182,13 +183,16 @@ plot_histogram('citric.acid', binwidth = 0.01) +
 # Univariate Analysis
 
 ### What is the structure of your dataset?
+
 1. 出去X为索引数，总共1599观察数据，每个数据有11个数值变量，还有一个品质评定的分类的变量，没有无效特征值。
+
 2. 一些特征数据有长尾，如residual.sugar
+
 3. 一些特征数据有红酒的特征呈正态分布，如chlorides，主要取值范围集中区间（0.03, 0.14）
 
 
 ### What is/are the main feature(s) of interest in your dataset?
-alcohol和Ph, sulphates
+红酒的品质，以及对其影响比较大的特征：sulphates，alcohol和Ph。
 
 ### What other features in the dataset do you think will help support your investigation into your feature(s) of interest?
 比如residual.sugar, , chlorides, density and 
@@ -197,6 +201,7 @@ alcohol和Ph, sulphates
 ### Did you create any new variables from existing variables in the dataset?
 
 新增了一个品质等级，相应的总数为：
+
   - Low_Q：744 
   
   - Meddle_Q：638
@@ -228,9 +233,13 @@ ggcorr(rw2,
 ```
 
 ggcorr函数整体查看下变量之间的相关性，由上图相互间相关系数可知，对红酒品质的影响可以分：
+
 1. alcohol和sulphol都是强正相关；
+
 2. fixed.acidity和citric.acid都是弱正相关；
+
 3. volatile.acidity强负相关；
+
 4. chlorides, density弱负相关
 
 当然，有些特征间相关性极高，还可以看到pH与fixed.acidity相关性高，但对品质相关性为0，很十奇怪。
@@ -407,14 +416,22 @@ mtable(m1, m2, m3, m4, m5)
 ## cal error
 df <- data.frame(
   test_data$quality,
-  predict(m5, test_data) - test_data$quality)
+  # adding abs we can found the data more clear to understand
+  abs(predict(m5, test_data) - test_data$quality))
 
 names(df) <- c("quality", "error")
 
-ggplot(aes(x = quality, y = error), data = df) +
-  geom_point()
+
+ggplot(aes(x = factor(quality), y = error), data = df) +
+  geom_jitter(alpha = 1/10) +
+  geom_boxplot(alpha = 1/10, color = 'blue') +
+  stat_summary(fun.y = 'mean', geom = 'point', color = 'red') +
+  labs(x = "Quality (score between 3 and 8)",
+       y = "Model predict error",
+       title = "Boxplot of prediction error across qualities @ 80% training data")
 ```
-我们的模型可以推算误差靠近0，但是不同品质的酒结果并不一样。
+
+我们的模型可以推算误差接近0，但是不同品质的酒预测精度并不一样。quality 5/6明显要高于其他数据组。
 
 # Final Plots and Summary
 
