@@ -12,5 +12,6 @@ This Repo is learning Udacity dand course project and relates notes, and some ma
 	- course note
 	- [project](./Data Wrangling and Cleaning/wrangle_act.ipynb)
 3. [EDA - R](./EDA/) 
-    - [proj-Red wine](./EDA//wineQualityReds_EDA.html)
+    - [proj-Red wine](./EDA/wineQualityReds_EDA.html)
+
 
