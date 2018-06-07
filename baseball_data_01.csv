@@ -1,0 +1,1158 @@
+﻿BMI (组),BMI,HR (组),HR,记录数,avg (组),avg,handedness,height,name,weight
+Normal(19-24),22.426346406,Lower(0-10),0,1,No recorder(0),0,R,73,Tom Brown,170
+Weighter(24-27),24.009382623,Lower(0-10),4,1,Low(0-0.2),.13,R,73,Denny Lemaster,182
+Weighter(24-27),24.404879984,Median(10-40),27,1,Median(0.2-0.28),.263,L,71,Joe Nolan,175
+Weighter(24-27),25.840159630,Median(10-40),16,1,Median(0.2-0.28),.25,L,69,Denny Doyle,175
+Normal(19-24),21.520408163,High(40-180),138,1,Median(0.2-0.28),.275,R,70,Jose Cardenal,150
+Weighter(24-27),26.317567568,Median(10-40),28,1,Low(0-0.2),.193,R,74,Mike Ryan,205
+Weighter(24-27),25.087770062,Lower(0-10),2,1,Low(0-0.2),.159,B,72,Fritz Peterson,185
+Weighter(24-27),27.121913580,Lower(0-10),10,1,Median(0.2-0.28),.25,R,72,Dick Bertell,200
+Normal(19-24),23.745543254,Lower(0-10),6,1,Median(0.2-0.28),.241,R,73,Rod Kanehl,180
+Weighter(24-27),25.033783784,Lower(0-10),0,1,No recorder(0),0,R,74,Ozzie Osborn,195
+Weighter(24-27),24.405141678,Lower(0-10),0,1,No recorder(0),0,L,73,John LaRose,185
+Weighter(24-27),24.370666667,Lower(0-10),0,1,No recorder(0),0,R,75,Jeff Byrd,195
+Weighter(24-27),25.101869355,Lower(0-10),7,1,Median(0.2-0.28),.256,R,69,Juan Bonilla,170
+Weighter(24-27),25.799444555,Lower(0-10),6,1,Median(0.2-0.28),.241,L,71,Frank Tepedino,185
+Normal(19-24),23.085944830,Lower(0-10),0,1,No recorder(0),0,L,73,Jerry Kutzler,175
+Normal(19-24),23.745543254,Median(10-40),15,1,Low(0-0.2),.195,R,73,Rick Wise,180
+Weighter(24-27),25.675675676,Excellent(>180),414,1,Median(0.2-0.28),.248,L,74,Darrell Evans,200
+Weighter(24-27),27.259183673,High(40-180),58,1,Median(0.2-0.28),.225,R,70,Buck Martinez,190
+Weighter(24-27),25.765817901,High(40-180),86,1,Median(0.2-0.28),.262,R,72,John Wockenfuss,190
+Weighter(24-27),24.816550926,High(40-180),75,1,Median(0.2-0.28),.246,L,72,Tommy McCraw,183
+Normal(19-24),23.120888889,Lower(0-10),0,1,No recorder(0),0,B,75,Jeff Barkley,185
+Weighter(24-27),25.064740101,Lower(0-10),0,1,No recorder(0),0,R,73,Eric Wilkins,190
+Weighter(24-27),25.492494518,Lower(0-10),0,1,No recorder(0),0,L,77,Britt Burns,215
+Normal(19-24),23.085944830,High(40-180),91,1,High(>0.28),.286,R,73,Lee Lacy,175
+Weighter(24-27),26.775639754,High(40-180),160,1,High(>0.28),.303,B,71,Pete Rose,192
+Weighter(24-27),26.443865741,Median(10-40),28,1,Median(0.2-0.28),.223,R,72,Danny Walton,195
+Weighter(24-27),25.102162269,Lower(0-10),9,1,Median(0.2-0.28),.225,R,71,Bobby Cox,180
+Normal(19-24),23.053626543,Lower(0-10),6,1,Median(0.2-0.28),.231,R,72,Brad Wellman,170
+Weighter(24-27),27.601351351,High(40-180),63,1,Median(0.2-0.28),.224,R,74,Jeff Newman,215
+Normal(19-24),23.867283951,Lower(0-10),8,1,Median(0.2-0.28),.244,R,72,Pedro Gonzalez,176
+Weighter(24-27),24.777027027,Lower(0-10),0,1,No recorder(0),0,B,74,Nardi Contreras,193
+Weighter(24-27),24.391891892,Median(10-40),12,1,Median(0.2-0.28),.226,R,74,Tommie Reynolds,190
+Weighter(24-27),25.101869355,Lower(0-10),5,1,Median(0.2-0.28),.277,R,69,Gene Clines,170
+Normal(19-24),23.995733333,High(40-180),159,1,Median(0.2-0.28),.252,R,75,Jim Hickman,192
+Normal(19-24),23.733552632,Lower(0-10),0,1,Low(0-0.2),.111,R,76,Jack Billingham,195
+Weighter(24-27),25.799444555,Median(10-40),22,1,Median(0.2-0.28),.22,R,71,Jerry Buchek,185
+Weighter(24-27),24.404879984,Median(10-40),21,1,Median(0.2-0.28),.254,R,71,Ivan DeJesus,175
+Weighter(24-27),25.290540541,Lower(0-10),1,1,Low(0-0.2),.138,R,74,Gary Nolan,197
+Weighter(24-27),24.405141678,Lower(0-10),0,1,No recorder(0),0,R,73,Gil Patterson,185
+Weighter(24-27),25.064740101,High(40-180),108,1,Median(0.2-0.28),.253,L,73,Fred Whitfield,190
+Weighter(24-27),26.167763158,Lower(0-10),4,1,Low(0-0.2),.136,R,76,Larry Dierker,215
+Weighter(24-27),25.675675676,Lower(0-10),3,1,Median(0.2-0.28),.241,R,74,Dave Skaggs,200
+Normal(19-24),23.745777778,Lower(0-10),1,1,Low(0-0.2),.183,R,75,Dick Ruthven,190
+Weighter(24-27),24.370666667,Lower(0-10),0,1,No recorder(0),0,L,75,Jerry Garvin,195
+Normal(19-24),23.75,Lower(0-10),0,1,No recorder(0),0,R,74,Steve Eddy,185
+Weighter(24-27),24.265285996,Excellent(>180),442,1,Median(0.2-0.28),.236,R,78,Dave Kingman,210
+Weighter(24-27),26.078357469,High(40-180),102,1,Median(0.2-0.28),.264,R,71,Eric Soderholm,187
+Weighter(24-27),26.085343228,Lower(0-10),0,1,No recorder(0),0,L,77,Kevin Mmahat,220
+Normal(19-24),23.053626543,High(40-180),60,1,Median(0.2-0.28),.224,R,72,Ed Brinkman,170
+Weighter(24-27),24.404879984,High(40-180),61,1,Median(0.2-0.28),.239,L,71,Wayne Garrett,175
+Normal(19-24),23.108108108,Lower(0-10),7,1,Median(0.2-0.28),.259,L,74,Tony Muser,180
+Weighter(24-27),24.342105263,Lower(0-10),0,1,No recorder(0),0,R,76,Jim Siwy,200
+Weighter(24-27),26.245333333,Lower(0-10),0,1,No recorder(0),0,R,75,Bud Anderson,210
+Weighter(24-27),25.824489796,Median(10-40),17,1,Median(0.2-0.28),.219,R,70,Ted Ford,180
+Weighter(24-27),25.765817901,Lower(0-10),0,1,No recorder(0),0,L,72,Kevin Stanfield,190
+Weighter(24-27),24.409722222,Lower(0-10),9,1,Median(0.2-0.28),.248,L,72,Jim Lyttle,180
+Normal(19-24),22.516447368,Lower(0-10),0,1,No recorder(0),0,R,76,John Butcher,185
+Weighter(24-27),25.724338525,Lower(0-10),0,1,No recorder(0),0,R,73,Jerry Ujdur,195
+Weighter(24-27),24.370666667,Lower(0-10),5,1,Median(0.2-0.28),.262,L,75,Scot Thompson,195
+Normal(19-24),23.672448980,Lower(0-10),9,1,Median(0.2-0.28),.274,L,70,Gene Locklear,165
+Weighter(24-27),25.799444555,High(40-180),87,1,Median(0.2-0.28),.255,R,71,Bo Diaz,185
+Weighter(24-27),25.397185465,Median(10-40),36,1,Median(0.2-0.28),.266,B,69,Bump Wills,172
+Weighter(24-27),24.950657895,Lower(0-10),0,1,No recorder(0),0,R,76,Brian Denman,205
+Weighter(24-27),27.799961420,High(40-180),63,1,Median(0.2-0.28),.255,L,72,Pat Putnam,205
+Weighter(24-27),24.409722222,Median(10-40),27,1,Median(0.2-0.28),.236,R,72,Kurt Bevacqua,180
+Weighter(24-27),24.995555556,Lower(0-10),0,1,No recorder(0),0,L,75,Bob Fallon,200
+Weighter(24-27),24.405141678,Median(10-40),24,1,Median(0.2-0.28),.23,R,73,Syd O'Brien,185
+Weighter(24-27),25.724338525,Excellent(>180),185,1,Median(0.2-0.28),.279,L,73,Chris Chambliss,195
+Weighter(24-27),24.405141678,Median(10-40),21,1,Median(0.2-0.28),.225,L,73,Tom Satriano,185
+Weighter(24-27),25.675675676,High(40-180),144,1,Median(0.2-0.28),.266,R,74,Jeffrey Leonard,200
+Normal(19-24),21.894663757,Lower(0-10),6,1,Median(0.2-0.28),.217,R,71,Dal Maxvill,157
+Weighter(24-27),25.074128863,Lower(0-10),0,1,No recorder(0),0,R,78,Steve Curry,217
+Normal(19-24),22.886998530,High(40-180),46,1,Median(0.2-0.28),.278,R,69,Cesar Tovar,155
+Normal(19-24),22.426346406,Lower(0-10),0,1,Low(0-0.2),.11,B,73,Mickey Lolich,170
+Normal(19-24),23.108108108,Lower(0-10),0,1,No recorder(0),0,B,74,Ray Chadwick,180
+Normal(19-24),23.731674383,Lower(0-10),9,1,Median(0.2-0.28),.211,R,72,Jack Heidemann,175
+Weighter(24-27),26.541836735,High(40-180),77,1,Median(0.2-0.28),.269,R,70,Rich Rollins,185
+Weighter(24-27),25.682422689,High(40-180),41,1,Median(0.2-0.28),.256,L,79,Walt Bond,228
+Weighter(24-27),27.259183673,High(40-180),66,1,Median(0.2-0.28),.271,R,70,Merv Rettenmund,190
+Weighter(24-27),27.141447368,Lower(0-10),0,1,No recorder(0),0,R,76,Bryan Clutterbuck,223
+Weighter(24-27),24.391891892,Median(10-40),30,1,Median(0.2-0.28),.236,R,74,Byron Browne,190
+Normal(19-24),23.731674383,Median(10-40),18,1,Median(0.2-0.28),.216,R,72,Hector Torres,175
+Weighter(24-27),26.628787879,Median(10-40),33,1,Median(0.2-0.28),.27,R,66,Walt Williams,165
+Weighter(24-27),26.317567568,Lower(0-10),2,1,Low(0-0.2),.119,R,74,Jerry Koosman,205
+Normal(19-24),23.731674383,Median(10-40),20,1,Median(0.2-0.28),.233,R,72,Steve Lombardozzi,175
+Weighter(24-27),25.765817901,High(40-180),50,1,Median(0.2-0.28),.252,R,72,Joe Azcue,190
+Weighter(24-27),25.102162269,Median(10-40),18,1,Median(0.2-0.28),.261,R,71,Elliott Maddox,180
+Normal(19-24),23.108108108,Median(10-40),37,1,Median(0.2-0.28),.252,L,74,Omar Moreno,180
+Normal(19-24),23.085944830,High(40-180),78,1,Median(0.2-0.28),.257,R,73,Julian Javier,175
+Normal(19-24),21.107149559,Lower(0-10),0,1,No recorder(0),0,L,73,Tony Ferreira,160
+Normal(19-24),23.625288805,Lower(0-10),4,1,Median(0.2-0.28),.232,R,69,Elio Chacon,160
+Weighter(24-27),25.107142857,Median(10-40),35,1,Median(0.2-0.28),.212,B,70,Rusty Torres,175
+Weighter(24-27),25.087770062,High(40-180),46,1,Median(0.2-0.28),.26,R,72,John Stearns,185
+Normal(19-24),22.955102041,High(40-180),47,1,Median(0.2-0.28),.233,R,70,Larry Brown,160
+Normal(19-24),22.375578704,Lower(0-10),4,1,Low(0-0.2),.18,R,72,Tommy Dean,165
+Normal(19-24),23.995733333,Lower(0-10),0,1,No recorder(0),0,L,75,Bryan Oelkers,192
+Weighter(24-27),25.033783784,Lower(0-10),0,1,No recorder(0),0,L,74,Kevin Bearse,195
+Normal(19-24),23.053626543,Lower(0-10),0,1,Median(0.2-0.28),.243,B,72,Marty Martinez,170
+Normal(19-24),23.75,Lower(0-10),10,1,Median(0.2-0.28),.263,L,74,Bruce Boisclair,185
+Weighter(24-27),25.559210526,Excellent(>180),246,1,High(>0.28),.282,B,76,Ken Singleton,210
+Normal(19-24),23.010315414,High(40-180),160,1,Median(0.2-0.28),.255,R,71,Frank White,165
+Weighter(24-27),27.259183673,Lower(0-10),7,1,Median(0.2-0.28),.235,L,70,Jim Fairey,190
+Normal(19-24),23.731674383,Lower(0-10),0,1,No recorder(0),0,R,72,Jose Roman,175
+Normal(19-24),23.672448980,High(40-180),71,1,Median(0.2-0.28),.246,R,70,Tom Brookens,165
+Normal(19-24),23.745543254,High(40-180),61,1,Median(0.2-0.28),.249,L,73,Gary Thomasson,180
+Normal(19-24),23.745543254,Lower(0-10),0,1,No recorder(0),0,R,73,Mike Trujillo,180
+Normal(19-24),23.125,Lower(0-10),0,1,No recorder(0),0,R,76,Albert Williams,190
+Normal(19-24),20.934210526,Lower(0-10),0,1,No recorder(0),0,R,76,Oswaldo Peraza,172
+Normal(19-24),23.053626543,High(40-180),78,1,Median(0.2-0.28),.251,R,72,Otto Velez,170
+Normal(19-24),22.239969136,Median(10-40),17,1,Median(0.2-0.28),.249,B,72,Tony Scott,164
+Normal(19-24),23.010315414,Median(10-40),15,1,Low(0-0.2),.175,R,71,Ray Oyler,165
+Weighter(24-27),24.899645809,Lower(0-10),0,1,No recorder(0),0,R,77,Barry Cort,210
+Weighter(24-27),25.840159630,High(40-180),67,1,High(>0.28),.283,L,69,Floyd Robinson,175
+Weighter(24-27),25.102162269,Lower(0-10),5,1,Median(0.2-0.28),.21,B,71,Steve Jeltz,180
+Normal(19-24),23.707597699,High(40-180),149,1,High(>0.28),.293,L,71,Lou Brock,170
+Normal(19-24),22.955102041,Lower(0-10),0,1,No recorder(0),0,R,70,Bill Wilkinson,160
+Weighter(24-27),25.087770062,Lower(0-10),4,1,Median(0.2-0.28),.216,B,72,Joe Lovitto,185
+Weighter(24-27),25.559210526,Lower(0-10),0,1,No recorder(0),0,R,76,Mike Loynd,210
+Weighter(24-27),25.107142857,Median(10-40),16,1,Median(0.2-0.28),.229,R,70,Wayne Comer,175
+Weighter(24-27),24.404879984,Median(10-40),32,1,Median(0.2-0.28),.272,B,71,Dave Collins,175
+Weighter(24-27),25.102162269,Median(10-40),39,1,Median(0.2-0.28),.238,R,71,Ed Spiezio,180
+Normal(19-24),23.731674383,Excellent(>180),210,1,Median(0.2-0.28),.251,R,72,Rico Petrocelli,175
+Weighter(24-27),24.932820417,Median(10-40),22,1,Median(0.2-0.28),.227,L,73,Johnny Lewis,189
+Normal(19-24),21.421052632,Median(10-40),15,1,Median(0.2-0.28),.207,R,76,Dick Simpson,176
+Normal(19-24),23.053626543,Median(10-40),31,1,Median(0.2-0.28),.248,L,72,Ken Boswell,170
+Normal(19-24),23.745777778,High(40-180),156,1,Median(0.2-0.28),.248,R,75,Ken McMullen,190
+Weighter(24-27),24.405141678,Lower(0-10),0,1,No recorder(0),0,B,73,Randy Scarbery,185
+Weighter(24-27),26.317567568,Median(10-40),20,1,Median(0.2-0.28),.216,R,74,Steve Swisher,205
+Weighter(24-27),25.907707098,Lower(0-10),0,1,No recorder(0),0,R,79,Ben Callahan,230
+Normal(19-24),23.565095156,Median(10-40),16,1,Median(0.2-0.28),.248,R,68,Dick Howser,155
+Normal(19-24),23.625288805,Lower(0-10),3,1,Median(0.2-0.28),.242,B,69,Manny Castillo,160
+Normal(19-24),22.426346406,Lower(0-10),2,1,Median(0.2-0.28),.24,B,73,Mike Ramsey,170
+Weighter(24-27),25.988177895,High(40-180),86,1,Median(0.2-0.28),.268,L,73,Willie Crawford,197
+Weighter(24-27),26.217813926,Lower(0-10),0,1,No recorder(0),0,R,71,Bobby Cuellar,188
+Weighter(24-27),25.087770062,Median(10-40),18,1,Median(0.2-0.28),.242,R,72,Willie Norwood,185
+Weighter(24-27),24.843030901,Lower(0-10),0,1,No recorder(0),0,L,78,Mike Jones,215
+Normal(19-24),23.731674383,Median(10-40),11,1,Median(0.2-0.28),.277,L,72,Jeff Stone,175
+Normal(19-24),20.341435185,Lower(0-10),0,1,No recorder(0),0,R,72,Ramon Manon,150
+Weighter(24-27),26.120097579,High(40-180),65,1,Median(0.2-0.28),.223,L,73,Joe Lahoud,198
+Weighter(24-27),24.404879984,Lower(0-10),9,1,Median(0.2-0.28),.255,L,71,Tim Flannery,175
+Weighter(24-27),25.724338525,Median(10-40),21,1,Median(0.2-0.28),.229,B,73,Dave McKay,195
+Weighter(24-27),25.620444444,Lower(0-10),0,1,No recorder(0),0,R,75,John Trautwein,205
+Weighter(24-27),24.306797099,Lower(0-10),0,1,No recorder(0),0,R,77,Andy Replogle,205
+Normal(19-24),22.496,Lower(0-10),0,1,No recorder(0),0,L,75,Zach Crouch,180
+Weighter(24-27),24.405141678,Median(10-40),38,1,Median(0.2-0.28),.251,R,73,Benny Ayala,185
+Normal(19-24),23.733552632,Lower(0-10),0,1,No recorder(0),0,R,76,Ron Romanick,195
+Normal(19-24),22.955102041,Lower(0-10),7,1,High(>0.28),.287,L,70,Greg Gross,160
+Weighter(24-27),27.495111111,Lower(0-10),0,1,No recorder(0),0,L,75,Bruce Tanner,220
+Weighter(24-27),25.765817901,Lower(0-10),8,1,Median(0.2-0.28),.227,R,72,Sal Butera,190
+Normal(19-24),23.672448980,Median(10-40),30,1,Median(0.2-0.28),.245,L,70,Jack Brohamer,165
+Weighter(24-27),24.389795918,Median(10-40),30,1,Median(0.2-0.28),.273,L,70,Von Joshua,170
+Weighter(24-27),24.125967070,High(40-180),42,1,Median(0.2-0.28),.253,L,71,Eddie Milner,173
+Normal(19-24),23.745543254,Median(10-40),18,1,Median(0.2-0.28),.244,R,73,Johnny Jeter,180
+Weighter(24-27),24.409722222,Lower(0-10),2,1,Median(0.2-0.28),.212,R,72,Angel Salazar,180
+Normal(19-24),23.085944830,Excellent(>180),220,1,High(>0.28),.304,L,73,Tony Oliva,175
+Normal(19-24),23.745777778,High(40-180),91,1,Median(0.2-0.28),.256,R,75,Cito Gaston,190
+Normal(19-24),22.955102041,High(40-180),54,1,Median(0.2-0.28),.263,R,70,Cookie Rojas,160
+Normal(19-24),23.707597699,Lower(0-10),6,1,Low(0-0.2),.195,R,71,Rich Morales,170
+Normal(19-24),23.125,Lower(0-10),0,1,No recorder(0),0,R,76,Dave Ford,190
+Weighter(24-27),24.405141678,High(40-180),121,1,Median(0.2-0.28),.27,R,73,Dan Ford,185
+Weighter(24-27),25.107142857,Lower(0-10),0,1,No recorder(0),0,B,70,Barry Raziano,175
+Fat(>27),28.940978786,High(40-180),44,1,Median(0.2-0.28),.243,R,69,Darryl Motley,196
+Normal(19-24),23.745543254,High(40-180),98,1,Median(0.2-0.28),.243,R,73,Ozzie Virgil,180
+Weighter(24-27),26.217813926,Median(10-40),14,1,Median(0.2-0.28),.25,L,71,Johnny Oates,188
+Normal(19-24),23.731674383,Lower(0-10),0,1,No recorder(0),0,L,72,Pat Underwood,175
+Normal(19-24),23.053626543,Median(10-40),11,1,Median(0.2-0.28),.24,L,72,Mike Phillips,170
+Weighter(24-27),25.765817901,Excellent(>180),342,1,Median(0.2-0.28),.277,R,72,Ron Santo,190
+Normal(19-24),23.085944830,High(40-180),102,1,Median(0.2-0.28),.267,L,73,Jay Johnstone,175
+Weighter(24-27),25.799444555,High(40-180),170,1,Median(0.2-0.28),.278,R,71,Jim Ray Hart,185
+Weighter(24-27),25.620444444,Median(10-40),34,1,Median(0.2-0.28),.223,R,75,Marc Hill,205
+Weighter(24-27),25.087770062,Lower(0-10),0,1,No recorder(0),0,L,72,Joel McKeon,185
+Normal(19-24),21.871111111,Lower(0-10),0,1,No recorder(0),0,R,75,Danny Fife,175
+Normal(19-24),22.955102041,Median(10-40),31,1,Median(0.2-0.28),.249,R,70,Chico Salmon,160
+Weighter(24-27),24.405141678,Lower(0-10),1,1,Low(0-0.2),.156,R,73,Joe Niekro,185
+Weighter(24-27),25.064740101,High(40-180),49,1,Median(0.2-0.28),.235,R,73,Andy Etchebarren,190
+Normal(19-24),23.731674383,High(40-180),58,1,Median(0.2-0.28),.255,R,72,Ken Berry,175
+Normal(19-24),19.898648649,High(40-180),101,1,Median(0.2-0.28),.267,R,74,Dave Concepcion,155
+Weighter(24-27),25.799444555,Lower(0-10),7,1,Median(0.2-0.28),.264,R,71,Junior Moore,185
+Normal(19-24),23.053626543,Lower(0-10),4,1,Median(0.2-0.28),.226,R,72,Mike Richardt,170
+Weighter(24-27),25.087770062,Median(10-40),38,1,Median(0.2-0.28),.269,R,72,Chris Brown,185
+Weighter(24-27),25.845588235,High(40-180),54,1,High(>0.28),.281,L,68,Al Bumbry,170
+Weighter(24-27),24.404879984,Lower(0-10),2,1,Low(0-0.2),.127,R,71,Al Downing,175
+Weighter(24-27),25.765817901,Lower(0-10),0,1,Median(0.2-0.28),.229,B,72,Bob Didier,190
+Weighter(24-27),24.409722222,Median(10-40),25,1,Median(0.2-0.28),.233,L,72,Jake Gibbs,180
+Normal(19-24),23.731674383,Median(10-40),12,1,Median(0.2-0.28),.247,L,72,Garry Hancock,175
+Weighter(24-27),25.620444444,High(40-180),118,1,Median(0.2-0.28),.261,L,75,Ed Kranepool,205
+Weighter(24-27),24.370666667,Lower(0-10),9,1,Median(0.2-0.28),.238,R,75,Rick Rhoden,195
+Weighter(24-27),24.405141678,Lower(0-10),1,1,Low(0-0.2),.133,R,73,Denny McLain,185
+Normal(19-24),23.707597699,Median(10-40),20,1,Median(0.2-0.28),.243,L,71,Chuck Hiller,170
+Weighter(24-27),24.389795918,High(40-180),130,1,Median(0.2-0.28),.278,L,70,Jorge Orta,170
+Normal(19-24),23.707597699,Median(10-40),21,1,High(>0.28),.283,R,71,Dave Cash,170
+Weighter(24-27),25.101869355,Median(10-40),40,1,Median(0.2-0.28),.247,R,69,Bucky Dent,170
+Weighter(24-27),25.620444444,Lower(0-10),0,1,No recorder(0),0,R,75,Andy Beene,205
+Weighter(24-27),25.064740101,Lower(0-10),0,1,No recorder(0),0,L,73,Bruce Robbins,190
+Weighter(24-27),25.101869355,High(40-180),103,1,High(>0.28),.286,L,69,Tony Gonzalez,170
+Weighter(24-27),25.102162269,Lower(0-10),0,1,No recorder(0),0,R,71,Leon Hooten,180
+Weighter(24-27),25.033783784,Median(10-40),12,1,Median(0.2-0.28),.215,R,74,Larry Haney,195
+Weighter(24-27),24.409722222,Median(10-40),40,1,Median(0.2-0.28),.256,R,72,Billy Conigliaro,180
+Weighter(24-27),25.620444444,High(40-180),121,1,Median(0.2-0.28),.247,R,75,Gary Roenicke,205
+Weighter(24-27),25.033783784,High(40-180),122,1,Median(0.2-0.28),.238,R,74,Don Lock,195
+Normal(19-24),23.053626543,Median(10-40),40,1,Median(0.2-0.28),.236,R,72,Billy Cowan,170
+Normal(19-24),23.75,Median(10-40),17,1,Median(0.2-0.28),.23,B,74,Billy Smith,185
+Weighter(24-27),25.824489796,Lower(0-10),0,1,No recorder(0),0,R,70,Allan Ramirez,180
+Normal(19-24),22.466216216,Excellent(>180),379,1,Median(0.2-0.28),.279,R,74,Tony Perez,175
+Normal(19-24),22.955102041,Median(10-40),23,1,Median(0.2-0.28),.239,R,70,Chuck Schilling,160
+Weighter(24-27),25.102162269,Excellent(>180),191,1,High(>0.28),.29,R,71,Hal McRae,180
+Weighter(24-27),26.870222222,High(40-180),49,1,Median(0.2-0.28),.239,R,75,Dave Roberts,215
+Normal(19-24),23.085944830,Lower(0-10),0,1,No recorder(0),0,R,73,Brian Allard,175
+Weighter(24-27),24.409722222,High(40-180),74,1,Median(0.2-0.28),.251,B,72,Jim Lefebvre,180
+Normal(19-24),23.108108108,Lower(0-10),0,1,No recorder(0),0,R,74,Fernando Arroyo,180
+Weighter(24-27),24.950657895,Lower(0-10),0,1,No recorder(0),0,R,76,Gary Beare,205
+Weighter(24-27),26.870222222,High(40-180),65,1,Median(0.2-0.28),.246,R,75,Charlie Spikes,215
+Normal(19-24),23.672448980,Lower(0-10),0,1,No recorder(0),0,L,70,Brian Dubois,165
+Weighter(24-27),24.409722222,Median(10-40),24,1,Median(0.2-0.28),.23,L,72,Steve Whitaker,180
+Weighter(24-27),24.405141678,Median(10-40),26,1,Median(0.2-0.28),.272,L,73,Manny Jimenez,185
+Normal(19-24),23.733552632,Lower(0-10),0,1,No recorder(0),0,R,76,Chris Batton,195
+Weighter(24-27),25.358989198,Median(10-40),30,1,Median(0.2-0.28),.221,R,72,Duffy Dyer,187
+Normal(19-24),23.108108108,High(40-180),122,1,Median(0.2-0.28),.257,B,74,Ken Henderson,180
+Weighter(24-27),24.306797099,Lower(0-10),0,1,No recorder(0),0,L,77,Vance Lovelace,205
+Weighter(24-27),25.381075183,Lower(0-10),0,1,No recorder(0),0,R,71,Greg Thayer,182
+Normal(19-24),22.426346406,Median(10-40),14,1,Median(0.2-0.28),.232,R,73,Vern Fuller,170
+Normal(19-24),23.713948389,Lower(0-10),0,1,No recorder(0),0,R,77,Paul Hartzell,200
+Weighter(24-27),26.959459459,High(40-180),121,1,Median(0.2-0.28),.233,L,74,Wayne Gross,210
+Weighter(24-27),25.087770062,Lower(0-10),2,1,Median(0.2-0.28),.229,R,72,Mike Champion,185
+Weighter(24-27),26.443865741,Lower(0-10),0,1,No recorder(0),0,L,72,Ralph Botting,195
+Normal(19-24),21.907894737,High(40-180),50,1,Median(0.2-0.28),.225,R,76,Paul Casanova,180
+Normal(19-24),22.466216216,Lower(0-10),0,1,Low(0-0.2),.138,R,74,Steve Rogers,175
+Normal(19-24),23.108108108,Lower(0-10),0,1,No recorder(0),0,R,74,Keith Creel,180
+Weighter(24-27),24.409722222,High(40-180),42,1,Median(0.2-0.28),.25,L,72,Terry Crowley,180
+Weighter(24-27),25.101869355,Median(10-40),27,1,Median(0.2-0.28),.256,B,69,Horace Clarke,170
+Weighter(24-27),24.405141678,High(40-180),65,1,Median(0.2-0.28),.247,R,73,Lou Clinton,185
+Weighter(24-27),25.537551020,Median(10-40),12,1,Median(0.2-0.28),.221,R,70,Larry Cox,178
+Weighter(24-27),24.391891892,High(40-180),173,1,Median(0.2-0.28),.243,R,74,Nate Colbert,190
+Weighter(24-27),24.391891892,High(40-180),43,1,Median(0.2-0.28),.215,R,74,Phil Roof,190
+Normal(19-24),23.745543254,High(40-180),113,1,Median(0.2-0.28),.264,R,73,Chuck Hinton,180
+Weighter(24-27),24.405141678,Lower(0-10),9,1,Median(0.2-0.28),.22,R,73,Tim Cullen,185
+Normal(19-24),23.364864865,Median(10-40),14,1,Median(0.2-0.28),.235,L,74,Tim Harkness,182
+Weighter(24-27),25.799444555,Median(10-40),17,1,Median(0.2-0.28),.25,R,71,Rick Bosetti,185
+Weighter(24-27),25.087770062,Median(10-40),12,1,Median(0.2-0.28),.269,R,72,Ron Pruitt,185
+Normal(19-24),23.745543254,Excellent(>180),348,1,Median(0.2-0.28),.274,R,73,George Foster,180
+Normal(19-24),23.528979592,Median(10-40),21,1,Median(0.2-0.28),.253,B,70,Jerry White,164
+Weighter(24-27),25.537551020,Median(10-40),22,1,Median(0.2-0.28),.245,R,70,Angel Mangual,178
+Weighter(24-27),25.765817901,Median(10-40),24,1,Median(0.2-0.28),.221,R,72,Ken Gerhart,190
+Weighter(24-27),25.107142857,Median(10-40),26,1,Median(0.2-0.28),.252,R,70,Mike Hershberger,175
+Weighter(24-27),27.365916955,Lower(0-10),5,1,Low(0-0.2),.196,L,68,Jim French,180
+Weighter(24-27),24.370666667,Lower(0-10),7,1,Low(0-0.2),.194,L,75,Dave Roberts,195
+Normal(19-24),23.75,Median(10-40),12,1,Median(0.2-0.28),.203,L,74,Jim Mason,185
+Normal(19-24),22.496,Lower(0-10),0,1,No recorder(0),0,R,75,Mike Smith,180
+Weighter(24-27),24.680941358,High(40-180),46,1,Median(0.2-0.28),.248,L,72,Willie Smith,182
+Normal(19-24),23.125,Lower(0-10),0,1,No recorder(0),0,R,76,T.R. Bryden,190
+Normal(19-24),21.246222222,Lower(0-10),1,1,Median(0.2-0.28),.215,R,75,Jose Arcia,170
+Weighter(24-27),24.405141678,High(40-180),147,1,Median(0.2-0.28),.277,L,73,Leon Durham,185
+Weighter(24-27),25.799444555,Lower(0-10),0,1,No recorder(0),0,R,71,Tom Makowski,185
+Weighter(24-27),24.409722222,Median(10-40),29,1,Median(0.2-0.28),.236,B,72,Paul Householder,180
+Weighter(24-27),25.824489796,High(40-180),124,1,Median(0.2-0.28),.237,R,70,Aurelio Rodriguez,180
+Normal(19-24),22.375578704,Lower(0-10),8,1,Median(0.2-0.28),.237,B,72,Jimmy Stewart,165
+Weighter(24-27),24.409722222,Median(10-40),12,1,Median(0.2-0.28),.229,L,72,Dick Phillips,180
+Normal(19-24),22.426346406,High(40-180),42,1,Median(0.2-0.28),.234,R,73,Andres Thomas,170
+Normal(19-24),22.466216216,Lower(0-10),0,1,Median(0.2-0.28),.22,L,74,Ed Crosby,175
+Weighter(24-27),24.404879984,Median(10-40),25,1,Median(0.2-0.28),.251,R,71,Mike de la Hoz,175
+Normal(19-24),21.019483025,Lower(0-10),2,1,Median(0.2-0.28),.255,R,72,Frank Taveras,155
+Weighter(24-27),24.138503086,Lower(0-10),3,1,Median(0.2-0.28),.228,R,72,Joe Nossek,178
+Normal(19-24),23.731674383,Median(10-40),36,1,Median(0.2-0.28),.232,L,72,Larry Stahl,175
+Normal(19-24),23.053626543,High(40-180),165,1,High(>0.28),.284,L,72,Jose Cruz,170
+Normal(19-24),22.313033128,Lower(0-10),3,1,Median(0.2-0.28),.205,L,71,Don Mason,160
+Weighter(24-27),24.263513514,High(40-180),166,1,Median(0.2-0.28),.258,R,74,Bill Robinson,189
+Normal(19-24),23.109796187,Lower(0-10),0,1,No recorder(0),0,L,78,Jim Umbarger,200
+Weighter(24-27),26.443865741,Excellent(>180),242,1,Median(0.2-0.28),.254,R,72,Sal Bando,195
+Weighter(24-27),25.033783784,High(40-180),76,1,Median(0.2-0.28),.236,R,74,George Mitterwald,195
+Normal(19-24),23.125,Lower(0-10),0,1,No recorder(0),0,R,76,Mike Darr,190
+Normal(19-24),23.672448980,Lower(0-10),0,1,Median(0.2-0.28),.219,R,70,Craig Robinson,165
+Weighter(24-27),24.950657895,High(40-180),79,1,Median(0.2-0.28),.232,R,76,Bob Tillman,205
+Weighter(24-27),26.085343228,Lower(0-10),0,1,No recorder(0),0,L,77,Curt Wardle,220
+Weighter(24-27),24.409722222,Lower(0-10),4,1,Median(0.2-0.28),.216,R,72,Pat Corrales,180
+Weighter(24-27),25.101869355,Median(10-40),27,1,Median(0.2-0.28),.241,R,69,Mike Tyson,170
+Normal(19-24),23.672448980,Lower(0-10),4,1,Median(0.2-0.28),.237,B,70,Rafael Landestoy,165
+Weighter(24-27),25.765817901,Median(10-40),23,1,Median(0.2-0.28),.258,R,72,Duane Josephson,190
+Weighter(24-27),25.087770062,Median(10-40),24,1,Median(0.2-0.28),.229,L,72,Duane Walker,185
+Normal(19-24),22.148708255,High(40-180),70,1,Median(0.2-0.28),.244,R,69,Glenn Hubbard,150
+Weighter(24-27),25.765817901,Median(10-40),22,1,Median(0.2-0.28),.245,R,72,Roger Freed,190
+Weighter(24-27),24.370666667,Excellent(>180),267,1,Median(0.2-0.28),.278,R,75,George Hendrick,195
+Normal(19-24),23.053626543,High(40-180),92,1,High(>0.28),.328,L,72,Rod Carew,170
+Weighter(24-27),24.409722222,Lower(0-10),6,1,Low(0-0.2),.197,R,72,Bob Davis,180
+Normal(19-24),23.731674383,Excellent(>180),195,1,Median(0.2-0.28),.264,R,72,Toby Harrah,175
+Normal(19-24),23.745543254,High(40-180),56,1,Median(0.2-0.28),.257,L,73,Rick Manning,180
+Weighter(24-27),25.101869355,Lower(0-10),0,1,No recorder(0),0,L,69,Israel Sanchez,170
+Weighter(24-27),25.675675676,Lower(0-10),0,1,No recorder(0),0,B,74,Steve Burke,200
+Normal(19-24),23.75,Excellent(>180),234,1,High(>0.28),.281,R,74,Gary Matthews,185
+Normal(19-24),22.375578704,High(40-180),51,1,Median(0.2-0.28),.258,L,72,Cesar Geronimo,165
+Weighter(24-27),24.342105263,High(40-180),41,1,Median(0.2-0.28),.216,L,76,Billy Bryan,200
+Normal(19-24),23.745543254,Lower(0-10),0,1,No recorder(0),0,R,73,Terry Taylor,180
+Weighter(24-27),25.988177895,Median(10-40),33,1,High(>0.28),.281,L,73,Terry Whitfield,197
+Normal(19-24),23.707597699,Lower(0-10),4,1,Median(0.2-0.28),.215,R,71,Mario Mendoza,170
+Weighter(24-27),24.405141678,Excellent(>180),306,1,High(>0.28),.283,L,73,Fred Lynn,185
+Weighter(24-27),24.777027027,High(40-180),166,1,Median(0.2-0.28),.273,R,74,Larry Hisle,193
+Weighter(24-27),24.409722222,Excellent(>180),390,1,Median(0.2-0.28),.248,L,72,Graig Nettles,180
+Weighter(24-27),26.167763158,Lower(0-10),0,1,No recorder(0),0,R,76,Randy Nosek,215
+Weighter(24-27),26.245333333,Median(10-40),31,1,Median(0.2-0.28),.262,R,75,Dave Engle,210
+Normal(19-24),22.955102041,Lower(0-10),0,1,No recorder(0),0,L,70,Narciso Elvira,160
+Weighter(24-27),25.765817901,High(40-180),118,1,High(>0.28),.293,L,72,Mike Easler,190
+Weighter(24-27),27.601351351,Lower(0-10),0,1,No recorder(0),0,R,74,Mark Smith,215
+Weighter(24-27),25.724338525,Lower(0-10),0,1,No recorder(0),0,R,73,Paul Mitchell,195
+Weighter(24-27),26.383936949,Lower(0-10),6,1,Median(0.2-0.28),.234,B,73,Rick Sweet,200
+Weighter(24-27),26.496726840,High(40-180),113,1,High(>0.28),.292,R,71,Thurman Munson,190
+Weighter(24-27),24.120711111,Excellent(>180),241,1,Median(0.2-0.28),.264,L,75,Rick Monday,193
+Weighter(24-27),24.363579080,Lower(0-10),5,1,Median(0.2-0.28),.226,R,69,Mike Sadek,165
+Normal(19-24),22.426346406,Median(10-40),20,1,Median(0.2-0.28),.228,R,73,Mark Belanger,170
+Weighter(24-27),25.223379630,Median(10-40),39,1,Median(0.2-0.28),.273,R,72,Ron Hunt,186
+Weighter(24-27),25.087770062,Lower(0-10),9,1,Median(0.2-0.28),.246,L,72,Joe Keough,185
+Weighter(24-27),25.370488889,Lower(0-10),0,1,No recorder(0),0,R,75,Butch Edge,203
+Weighter(24-27),26.541836735,Median(10-40),29,1,Median(0.2-0.28),.229,R,70,Vic Correll,185
+Normal(19-24),23.010315414,Median(10-40),12,1,Median(0.2-0.28),.208,R,71,Jackie Hernandez,165
+Fat(>27),28.478009259,High(40-180),50,1,Median(0.2-0.28),.255,L,72,Tony Solaita,210
+Weighter(24-27),24.404879984,Median(10-40),27,1,Median(0.2-0.28),.251,B,71,U L Washington,175
+Normal(19-24),23.120888889,Lower(0-10),0,1,No recorder(0),0,R,75,Gary Mielke,185
+Weighter(24-27),25.998520710,Lower(0-10),0,1,No recorder(0),0,R,78,Rick Henninger,225
+Fat(>27),29.156057099,High(40-180),58,1,Median(0.2-0.28),.248,R,72,Joe Foy,215
+Normal(19-24),22.496,Median(10-40),30,1,Median(0.2-0.28),.26,L,75,Ed Goodson,180
+Weighter(24-27),24.391891892,Lower(0-10),0,1,No recorder(0),0,B,74,Mark Brown,190
+Normal(19-24),23.707597699,Median(10-40),14,1,Median(0.2-0.28),.241,R,71,Mickey Klutts,170
+Weighter(24-27),25.724338525,High(40-180),77,1,Median(0.2-0.28),.244,R,73,Leroy Stanton,195
+Normal(19-24),21.697530864,Lower(0-10),0,1,No recorder(0),0,R,72,Rafael Vasquez,160
+Weighter(24-27),24.404879984,Lower(0-10),0,1,No recorder(0),0,L,71,Len Whitehouse,175
+Normal(19-24),21.299342105,Lower(0-10),2,1,Median(0.2-0.28),.22,R,76,Danny Ainge,175
+Normal(19-24),23.085944830,High(40-180),59,1,Median(0.2-0.28),.247,R,73,Adolfo Phillips,175
+Normal(19-24),23.731674383,Lower(0-10),7,1,Median(0.2-0.28),.25,R,72,Marv Breeding,175
+Weighter(24-27),24.265285996,Lower(0-10),0,1,No recorder(0),0,R,78,Steve Adkins,210
+Weighter(24-27),24.544336441,Excellent(>180),197,1,Median(0.2-0.28),.247,L,71,Dick McAuliffe,176
+Normal(19-24),23.053626543,Lower(0-10),0,1,Low(0-0.2),.134,R,72,Joe Horlen,170
+Weighter(24-27),26.443865741,Lower(0-10),2,1,Median(0.2-0.28),.237,R,72,Glenn Burke,195
+Weighter(24-27),25.394081633,Lower(0-10),0,1,No recorder(0),0,R,70,Tony Mack,177
+Normal(19-24),23.120888889,Lower(0-10),6,1,Median(0.2-0.28),.211,R,75,Terry Humphrey,185
+Weighter(24-27),25.559210526,Lower(0-10),0,1,No recorder(0),0,R,76,Bill Moran,210
+Normal(19-24),23.565095156,Lower(0-10),2,1,Median(0.2-0.28),.224,R,68,Enzo Hernandez,155
+Normal(19-24),22.886998530,Lower(0-10),0,1,Median(0.2-0.28),.235,R,69,Cesar Gutierrez,155
+Normal(19-24),23.672448980,Median(10-40),28,1,Median(0.2-0.28),.233,R,70,Coco Laboy,165
+Normal(19-24),23.731674383,Median(10-40),13,1,Median(0.2-0.28),.231,B,72,Ted Kubiak,175
+Weighter(24-27),24.404879984,High(40-180),112,1,Median(0.2-0.28),.26,R,71,Jim Morrison,175
+Weighter(24-27),24.405141678,Lower(0-10),0,1,No recorder(0),0,R,73,Tom Gilles,185
+Normal(19-24),22.426346406,High(40-180),56,1,Median(0.2-0.28),.236,R,73,Bobby Knoop,170
+Weighter(24-27),24.391891892,Median(10-40),26,1,Median(0.2-0.28),.245,B,74,Bobby Brown,190
+Weighter(24-27),25.102162269,Median(10-40),22,1,Median(0.2-0.28),.248,L,71,Tom Hutton,180
+Weighter(24-27),24.405141678,Median(10-40),19,1,Median(0.2-0.28),.24,L,73,Ron Hodges,185
+Normal(19-24),23.707597699,Lower(0-10),6,1,Median(0.2-0.28),.254,L,71,Rich Chiles,170
+Weighter(24-27),26.167763158,High(40-180),86,1,High(>0.28),.282,R,76,Tom Paciorek,215
+Normal(19-24),23.75,Median(10-40),13,1,Median(0.2-0.28),.243,R,74,Gary Woods,185
+Weighter(24-27),25.724338525,Median(10-40),23,1,Median(0.2-0.28),.258,R,73,Bob Montgomery,195
+Weighter(24-27),26.383936949,Excellent(>180),240,1,Median(0.2-0.28),.261,R,73,Jeff Burroughs,200
+Weighter(24-27),24.391891892,Excellent(>180),292,1,Median(0.2-0.28),.279,L,74,Rusty Staub,190
+Weighter(24-27),25.107142857,Lower(0-10),7,1,Median(0.2-0.28),.264,L,70,Jim Norris,175
+Normal(19-24),22.313033128,Excellent(>180),200,1,Median(0.2-0.28),.265,L,71,Oscar Gamble,160
+Weighter(24-27),25.559210526,Lower(0-10),0,1,No recorder(0),0,R,76,Bob Kammeyer,210
+Weighter(24-27),26.850694444,Median(10-40),27,1,Median(0.2-0.28),.268,L,72,George Vukovich,198
+Weighter(24-27),25.799444555,Lower(0-10),0,1,No recorder(0),0,L,71,Joe Pactwa,185
+Normal(19-24),23.085944830,High(40-180),42,1,Median(0.2-0.28),.256,L,73,Craig Reynolds,175
+Normal(19-24),22.782407407,High(40-180),134,1,Median(0.2-0.28),.25,R,72,Paul Blair,168
+Weighter(24-27),25.988177895,High(40-180),108,1,Median(0.2-0.28),.27,R,73,Al Cowens,197
+Weighter(24-27),26.443865741,Excellent(>180),219,1,High(>0.28),.303,L,72,Al Oliver,195
+Weighter(24-27),26.636183297,Lower(0-10),6,1,Median(0.2-0.28),.213,R,71,Dave Hilton,191
+Normal(19-24),23.920604915,Lower(0-10),5,1,Median(0.2-0.28),.214,R,69,Luis Alvarado,162
+Normal(19-24),23.745777778,Excellent(>180),256,1,Median(0.2-0.28),.263,R,75,Larry Parrish,190
+Weighter(24-27),24.620622222,Lower(0-10),2,1,Low(0-0.2),.138,R,75,Woodie Fryman,197
+Normal(19-24),22.466216216,Lower(0-10),1,1,Median(0.2-0.28),.257,R,74,Bob Randall,175
+Weighter(24-27),24.389795918,Lower(0-10),9,1,Median(0.2-0.28),.25,R,70,Jim Pankovits,170
+Weighter(24-27),24.950657895,Lower(0-10),0,1,No recorder(0),0,L,76,Sherman Corbett,205
+Weighter(24-27),27.121913580,Median(10-40),20,1,Median(0.2-0.28),.224,R,72,Carmen Fanzone,200
+Weighter(24-27),25.799444555,Median(10-40),19,1,Median(0.2-0.28),.221,R,71,Gary Allenson,185
+Weighter(24-27),25.765817901,High(40-180),77,1,Median(0.2-0.28),.263,L,72,Milt May,190
+Normal(19-24),23.745543254,Median(10-40),34,1,Median(0.2-0.28),.279,R,73,Mike Vail,180
+Weighter(24-27),24.995555556,High(40-180),122,1,Median(0.2-0.28),.25,R,75,Nick Esasky,200
+Weighter(24-27),25.223379630,Median(10-40),16,1,Median(0.2-0.28),.22,L,72,Jim Nettles,186
+Weighter(24-27),24.404879984,Lower(0-10),0,1,No recorder(0),0,B,71,Lafayette Currence,175
+Weighter(24-27),25.765817901,Median(10-40),18,1,Median(0.2-0.28),.235,R,72,Chris Cannizzaro,190
+Weighter(24-27),26.317567568,Median(10-40),29,1,Median(0.2-0.28),.273,L,74,Larry Biittner,205
+Normal(19-24),22.466216216,Lower(0-10),0,1,No recorder(0),0,R,74,John Pawlowski,175
+Normal(19-24),23.481703884,Lower(0-10),7,1,Low(0-0.2),.16,R,73,Mel Stottlemyre,178
+Normal(19-24),22.466216216,Lower(0-10),0,1,No recorder(0),0,R,74,Jack Hardy,175
+Normal(19-24),23.75,Lower(0-10),0,1,No recorder(0),0,R,74,Ron Musselman,185
+Weighter(24-27),24.405141678,High(40-180),163,1,Median(0.2-0.28),.257,B,73,Roy Smalley,185
+Weighter(24-27),24.683792898,Lower(0-10),0,1,No recorder(0),0,R,71,Tony Chevez,177
+Weighter(24-27),26.383936949,Lower(0-10),5,1,Low(0-0.2),.17,R,73,Andy Messersmith,200
+Weighter(24-27),26.383936949,Excellent(>180),207,1,High(>0.28),.287,R,73,Richie Zisk,200
+Weighter(24-27),25.107142857,Median(10-40),15,1,Median(0.2-0.28),.252,R,70,Dave Chalk,175
+Weighter(24-27),25.064740101,Excellent(>180),338,1,Median(0.2-0.28),.26,R,73,Don Baylor,190
+Weighter(24-27),24.668981047,Lower(0-10),6,1,Low(0-0.2),.161,R,73,John Vukovich,187
+Weighter(24-27),24.816550926,Median(10-40),15,1,Median(0.2-0.28),.248,R,72,Danny Thompson,183
+Normal(19-24),21.871111111,Lower(0-10),9,1,Median(0.2-0.28),.242,L,75,Joe Simpson,175
+Weighter(24-27),27.121913580,Lower(0-10),7,1,Median(0.2-0.28),.241,L,72,Bill Fahey,200
+Weighter(24-27),27.194009125,Median(10-40),18,1,Low(0-0.2),.199,R,71,Doug Camilli,195
+Normal(19-24),23.731674383,High(40-180),73,1,Median(0.2-0.28),.239,L,72,Bernie Allen,175
+Weighter(24-27),25.620444444,Median(10-40),26,1,Median(0.2-0.28),.239,R,75,Bruce Bochy,205
+Weighter(24-27),25.799444555,Lower(0-10),0,1,No recorder(0),0,R,71,Gary Ignasiak,185
+Weighter(24-27),25.765817901,High(40-180),164,1,Median(0.2-0.28),.278,L,72,Claudell Washington,190
+Normal(19-24),22.313033128,Lower(0-10),4,1,Median(0.2-0.28),.238,L,71,John Donaldson,160
+Normal(19-24),23.61640625,Lower(0-10),0,1,No recorder(0),0,L,80,Mike Smithson,215
+Weighter(24-27),26.870222222,Excellent(>180),255,1,Median(0.2-0.28),.253,L,75,John Mayberry,215
+Weighter(24-27),24.409722222,High(40-180),68,1,Median(0.2-0.28),.26,R,72,Ken Reitz,180
+Normal(19-24),23.010315414,Excellent(>180),193,1,Median(0.2-0.28),.277,R,71,Amos Otis,165
+Normal(19-24),22.955102041,High(40-180),55,1,Median(0.2-0.28),.254,R,70,Gene Alley,160
+Normal(19-24),23.672448980,Median(10-40),23,1,Median(0.2-0.28),.262,R,70,Ted Sizemore,165
+Weighter(24-27),24.409722222,Median(10-40),12,1,Low(0-0.2),.195,L,72,Dan Briggs,180
+Normal(19-24),23.745777778,Lower(0-10),0,1,No recorder(0),0,R,75,Joe Skalski,190
+Normal(19-24),23.010315414,Lower(0-10),7,1,Median(0.2-0.28),.238,R,71,Doug Flynn,165
+Weighter(24-27),25.064740101,Lower(0-10),0,1,No recorder(0),0,B,73,Bert Bradley,190
+Normal(19-24),22.466216216,Lower(0-10),2,1,Low(0-0.2),.163,R,74,Ken Holtzman,175
+Weighter(24-27),24.405141678,High(40-180),98,1,Median(0.2-0.28),.254,L,73,Pete Ward,185
+Weighter(24-27),26.443865741,Median(10-40),13,1,Median(0.2-0.28),.222,R,72,Kevin Bell,195
+Weighter(24-27),25.460499156,Lower(0-10),5,1,Median(0.2-0.28),.205,R,73,Tom Nieto,193
+Weighter(24-27),25.290540541,High(40-180),100,1,Median(0.2-0.28),.239,L,74,Duke Sims,197
+Weighter(24-27),25.389489619,Median(10-40),20,1,Median(0.2-0.28),.253,R,68,Larvell Blanks,167
+Normal(19-24),21.615750843,Lower(0-10),0,1,No recorder(0),0,R,71,Francisco Barrios,155
+Normal(19-24),22.466216216,High(40-180),91,1,Median(0.2-0.28),.259,L,74,Mike Davis,175
+Normal(19-24),23.713948389,Lower(0-10),1,1,Low(0-0.2),.167,L,77,Jerry Reuss,200
+Weighter(24-27),25.765817901,High(40-180),102,1,Median(0.2-0.28),.228,R,72,Steve Yeager,190
+Weighter(24-27),25.724338525,Median(10-40),13,1,Median(0.2-0.28),.236,L,73,Danny Goodwin,195
+Normal(19-24),22.313033128,Lower(0-10),7,1,Median(0.2-0.28),.236,B,71,Bud Harrelson,160
+Weighter(24-27),24.370666667,Lower(0-10),6,1,Low(0-0.2),.137,L,75,Bob Knepper,195
+Normal(19-24),23.672448980,High(40-180),61,1,High(>0.28),.295,L,70,Mickey Rivers,165
+Normal(19-24),23.745777778,High(40-180),153,1,Median(0.2-0.28),.267,L,75,Jim Northrup,190
+Weighter(24-27),25.033783784,Median(10-40),14,1,Median(0.2-0.28),.201,L,74,John Hale,195
+Weighter(24-27),25.033783784,Lower(0-10),0,1,No recorder(0),0,L,74,Reggie Ritter,195
+Weighter(24-27),25.107142857,Median(10-40),37,1,Median(0.2-0.28),.22,R,70,Pedro Garcia,175
+Weighter(24-27),24.404879984,Excellent(>180),452,1,High(>0.28),.285,L,71,Carl Yastrzemski,175
+Weighter(24-27),24.899645809,Lower(0-10),0,1,No recorder(0),0,R,77,Bob Babcock,210
+Weighter(24-27),24.404879984,Lower(0-10),0,1,No recorder(0),0,R,71,Craig Eaton,175
+Normal(19-24),21.697530864,High(40-180),43,1,Median(0.2-0.28),.249,B,72,Derrel Thomas,160
+Weighter(24-27),24.391891892,High(40-180),43,1,Median(0.2-0.28),.26,R,74,Art Howe,190
+Weighter(24-27),25.765817901,Median(10-40),20,1,Median(0.2-0.28),.256,R,72,Ike Brown,190
+Weighter(24-27),24.828947368,Median(10-40),11,1,Median(0.2-0.28),.216,R,76,Howie Goss,204
+Weighter(24-27),25.559210526,Median(10-40),16,1,Median(0.2-0.28),.229,R,76,Glenn Borgmann,210
+Weighter(24-27),27.601351351,High(40-180),64,1,High(>0.28),.287,R,74,Lamar Johnson,215
+Normal(19-24),22.591946042,Lower(0-10),4,1,Median(0.2-0.28),.235,R,71,Julio Gonzalez,162
+Weighter(24-27),24.389795918,Lower(0-10),6,1,Median(0.2-0.28),.208,R,70,Bobby Klaus,170
+Weighter(24-27),26.172646605,High(40-180),65,1,High(>0.28),.296,R,72,Manny Sanguillen,193
+Fat(>27),30.680420551,High(40-180),84,1,Median(0.2-0.28),.257,L,71,Gates Brown,220
+Normal(19-24),23.707597699,High(40-180),53,1,High(>0.28),.29,B,71,Johnny Ray,170
+Weighter(24-27),24.391891892,Median(10-40),32,1,High(>0.28),.28,R,74,Jesus Alou,190
+Normal(19-24),23.672448980,High(40-180),91,1,Median(0.2-0.28),.268,L,70,Ken Landreaux,165
+Normal(19-24),20.690789474,High(40-180),60,1,Median(0.2-0.28),.277,R,76,Enos Cabell,170
+Normal(19-24),23.731674383,Lower(0-10),0,1,No recorder(0),0,R,72,Roy Branch,175
+Weighter(24-27),25.799444555,Median(10-40),20,1,Median(0.2-0.28),.261,B,71,Billy North,185
+Normal(19-24),20.918468558,High(40-180),79,1,Median(0.2-0.28),.274,R,71,Juan Beniquez,150
+Weighter(24-27),25.087770062,Median(10-40),39,1,Low(0-0.2),.199,R,72,Frank Fernandez,185
+Weighter(24-27),26.828775510,Lower(0-10),10,1,Median(0.2-0.28),.265,R,70,Bombo Rivera,187
+Weighter(24-27),25.765817901,Median(10-40),30,1,Median(0.2-0.28),.258,R,72,Steve Brye,190
+Weighter(24-27),27.121913580,High(40-180),56,1,Median(0.2-0.28),.259,R,72,Ron Jackson,200
+Normal(19-24),22.375578704,Lower(0-10),5,1,Median(0.2-0.28),.231,B,72,Roger Metzger,165
+Normal(19-24),23.053626543,Median(10-40),11,1,Median(0.2-0.28),.27,R,72,Rufino Linares,170
+Weighter(24-27),25.087770062,Median(10-40),17,1,Median(0.2-0.28),.244,L,72,Ray Webster,185
+Weighter(24-27),25.765817901,Median(10-40),27,1,Median(0.2-0.28),.233,R,72,Bob Kearney,190
+Weighter(24-27),24.306797099,Median(10-40),13,1,Low(0-0.2),.165,R,77,Fergie Jenkins,205
+Weighter(24-27),25.724338525,High(40-180),66,1,Median(0.2-0.28),.261,R,73,Dick Dietz,195
+Weighter(24-27),24.370666667,Lower(0-10),10,1,Median(0.2-0.28),.245,R,75,Ted Cox,195
+Weighter(24-27),24.389795918,Lower(0-10),3,1,Median(0.2-0.28),.243,L,70,Bobby Mitchell,170
+Normal(19-24),23.120888889,Median(10-40),21,1,Median(0.2-0.28),.235,R,75,Bobby Mitchell,185
+Normal(19-24),23.745543254,Lower(0-10),2,1,Median(0.2-0.28),.251,R,73,Barry Evans,180
+Weighter(24-27),25.824489796,Median(10-40),32,1,Median(0.2-0.28),.259,R,70,Mickey Brantley,180
+Weighter(24-27),24.409722222,Median(10-40),11,1,Median(0.2-0.28),.263,R,72,Al Gallagher,180
+Normal(19-24),23.120888889,Lower(0-10),0,1,No recorder(0),0,R,75,Rob Woodward,185
+Normal(19-24),23.707597699,Median(10-40),39,1,Median(0.2-0.28),.225,R,71,Hector Cruz,170
+Normal(19-24),23.565095156,Lower(0-10),0,1,Low(0-0.2),.125,B,68,Fred Norman,155
+Normal(19-24),23.108108108,Lower(0-10),1,1,Median(0.2-0.28),.236,R,74,Woody Woodward,180
+Normal(19-24),22.375578704,Lower(0-10),7,1,Median(0.2-0.28),.24,R,72,Ted Martinez,165
+Normal(19-24),23.053626543,Median(10-40),13,1,Median(0.2-0.28),.218,R,72,Jim Anderson,170
+Normal(19-24),23.625288805,Median(10-40),25,1,Median(0.2-0.28),.23,R,69,Lenn Sakata,160
+Weighter(24-27),24.391891892,High(40-180),109,1,Median(0.2-0.28),.214,R,74,Dave Duncan,190
+Weighter(24-27),24.138503086,Lower(0-10),0,1,Low(0-0.2),.132,R,72,Randy Jones,178
+Weighter(24-27),25.724338525,Median(10-40),16,1,Median(0.2-0.28),.227,R,73,Dick Billings,195
+Normal(19-24),23.731674383,Lower(0-10),0,1,No recorder(0),0,R,72,Bob Veselic,175
+Weighter(24-27),24.370666667,High(40-180),100,1,High(>0.28),.282,L,75,Bruce Bochte,195
+Weighter(24-27),24.125967070,High(40-180),96,1,Median(0.2-0.28),.264,L,71,Bernie Carbo,173
+Normal(19-24),23.490755179,Median(10-40),36,1,Median(0.2-0.28),.279,L,67,Vic Davalillo,150
+Weighter(24-27),27.703133796,Lower(0-10),4,1,Low(0-0.2),.123,R,73,Burt Hooton,210
+Weighter(24-27),25.724338525,Lower(0-10),0,1,No recorder(0),0,B,73,Chuck Hockenbery,195
+Weighter(24-27),25.998520710,Lower(0-10),0,1,No recorder(0),0,R,78,Bob Ferris,225
+Normal(19-24),23.672448980,Median(10-40),17,1,Median(0.2-0.28),.235,R,70,Fernando Gonzalez,165
+Weighter(24-27),25.765817901,High(40-180),95,1,Median(0.2-0.28),.248,R,72,Jim Sundberg,190
+Weighter(24-27),25.620444444,High(40-180),73,1,Median(0.2-0.28),.236,R,75,Andy Kosco,205
+Weighter(24-27),26.911615688,Median(10-40),16,1,Median(0.2-0.28),.206,B,73,Steve Huntz,204
+Weighter(24-27),25.620444444,Lower(0-10),0,1,No recorder(0),0,R,75,Gary Wheelock,205
+Normal(19-24),23.053626543,Lower(0-10),5,1,Median(0.2-0.28),.251,R,72,Lenny Faedo,170
+Normal(19-24),23.731674383,High(40-180),116,1,Median(0.2-0.28),.253,L,72,John Lowenstein,175
+Normal(19-24),22.426346406,Median(10-40),14,1,Median(0.2-0.28),.252,B,73,Don Kessinger,170
+Weighter(24-27),26.443865741,Median(10-40),40,1,Median(0.2-0.28),.239,L,72,Joe Hague,195
+Weighter(24-27),24.391891892,High(40-180),63,1,High(>0.28),.299,L,74,Bake McBride,190
+Normal(19-24),23.745777778,Median(10-40),27,1,Median(0.2-0.28),.265,R,75,Dick Davis,190
+Normal(19-24),23.745543254,Median(10-40),13,1,Median(0.2-0.28),.263,B,73,Richie Scheinblum,180
+Weighter(24-27),25.724338525,High(40-180),80,1,Median(0.2-0.28),.24,L,73,Ed Herrmann,195
+Weighter(24-27),24.950657895,Lower(0-10),0,1,No recorder(0),0,L,76,Mike Rochford,205
+Weighter(24-27),24.370666667,Lower(0-10),0,1,No recorder(0),0,B,75,Jeff Schneider,195
+Weighter(24-27),25.765817901,Median(10-40),14,1,Median(0.2-0.28),.264,L,72,Bob Molinaro,190
+Weighter(24-27),24.800900732,High(40-180),53,1,Median(0.2-0.28),.242,L,73,Mike Hegan,188
+Weighter(24-27),25.033783784,Median(10-40),31,1,Median(0.2-0.28),.247,R,74,Mike Diaz,195
+Weighter(24-27),24.274112654,Median(10-40),25,1,Median(0.2-0.28),.251,R,72,Tim Foli,179
+Weighter(24-27),25.765817901,Median(10-40),12,1,Median(0.2-0.28),.213,R,72,Alan Knicely,190
+Weighter(24-27),26.495288889,High(40-180),77,1,Median(0.2-0.28),.225,R,75,Tim Laudner,212
+Weighter(24-27),26.078357469,Median(10-40),26,1,High(>0.28),.287,R,71,Jose Morales,187
+Weighter(24-27),25.537551020,Lower(0-10),0,1,No recorder(0),0,R,70,Luis Encarnacion,178
+Normal(19-24),23.75,Lower(0-10),0,1,No recorder(0),0,R,74,Rick Kreuger,185
+Weighter(24-27),25.087770062,Lower(0-10),4,1,Low(0-0.2),.165,R,72,Juan Marichal,185
+Weighter(24-27),25.630208333,Lower(0-10),4,1,Low(0-0.2),.104,B,72,Vida Blue,189
+Weighter(24-27),24.363579080,Lower(0-10),0,1,No recorder(0),0,L,69,Angel Moreno,165
+Normal(19-24),23.745777778,Lower(0-10),0,1,No recorder(0),0,R,75,Roger Weaver,190
+Normal(19-24),23.053626543,Lower(0-10),7,1,Median(0.2-0.28),.218,R,72,Stan Papi,170
+Normal(19-24),23.745543254,Median(10-40),39,1,Median(0.2-0.28),.248,L,73,Rob Wilfong,180
+Normal(19-24),23.121099680,Lower(0-10),0,1,No recorder(0),0,R,77,Chris Knapp,195
+Weighter(24-27),24.391891892,High(40-180),68,1,High(>0.28),.28,R,74,Steve Henderson,190
+Normal(19-24),23.75,Median(10-40),17,1,Median(0.2-0.28),.234,R,74,Rob Picciolo,185
+Weighter(24-27),24.950657895,Lower(0-10),0,1,No recorder(0),0,R,76,Don Welchel,205
+Weighter(24-27),24.405141678,Lower(0-10),0,1,No recorder(0),0,L,73,Randy Wiles,185
+Weighter(24-27),25.845588235,Median(10-40),13,1,Median(0.2-0.28),.245,R,68,Roberto Pena,170
+Normal(19-24),21.697530864,Median(10-40),23,1,Median(0.2-0.28),.255,R,72,Bob Dernier,160
+Weighter(24-27),25.675675676,High(40-180),160,1,Median(0.2-0.28),.253,R,74,Bill Melton,200
+Normal(19-24),21.615750843,Lower(0-10),5,1,Median(0.2-0.28),.251,B,71,Albert Hall,155
+Weighter(24-27),24.389795918,Median(10-40),11,1,Median(0.2-0.28),.267,R,70,Barbaro Garbey,170
+Weighter(24-27),25.087770062,High(40-180),131,1,Median(0.2-0.28),.249,L,72,John Milner,185
+Normal(19-24),23.120888889,High(40-180),52,1,Median(0.2-0.28),.253,L,75,Rich Reese,185
+Weighter(24-27),26.443865741,Median(10-40),27,1,Median(0.2-0.28),.227,B,72,Chris Bando,195
+Weighter(24-27),25.087770062,High(40-180),174,1,High(>0.28),.289,L,72,Bill Buckner,185
+Weighter(24-27),24.391891892,Median(10-40),22,1,Median(0.2-0.28),.251,R,74,Jack Hiatt,190
+Normal(19-24),23.733552632,Median(10-40),22,1,Median(0.2-0.28),.223,R,76,Nelson Mathews,195
+Normal(19-24),22.148708255,Lower(0-10),0,1,Median(0.2-0.28),.227,B,69,Larry Lintz,150
+Weighter(24-27),25.085423875,Lower(0-10),2,1,Median(0.2-0.28),.248,R,68,Ron Theobald,165
+Weighter(24-27),24.409722222,Lower(0-10),0,1,No recorder(0),0,R,72,Dewey Robinson,180
+Normal(19-24),21.766747983,Median(10-40),13,1,Median(0.2-0.28),.246,R,73,Rafael Santana,165
+Weighter(24-27),24.389795918,Median(10-40),30,1,Median(0.2-0.28),.258,B,70,Jerry Hairston,170
+Normal(19-24),23.707597699,Lower(0-10),0,1,No recorder(0),0,R,71,Tony Arnold,170
+Normal(19-24),23.713948389,Lower(0-10),0,1,No recorder(0),0,L,77,Jeff Schattinger,200
+Normal(19-24),20.156856131,Lower(0-10),0,1,No recorder(0),0,R,77,Ike Brookens,170
+Normal(19-24),23.745777778,Median(10-40),13,1,Median(0.2-0.28),.229,R,75,Tommie Aaron,190
+Normal(19-24),23.745543254,Median(10-40),13,1,Median(0.2-0.28),.243,R,73,Steve Dillard,180
+Normal(19-24),20.540540541,Lower(0-10),0,1,No recorder(0),0,R,74,Win Remmerswaal,160
+Weighter(24-27),25.033783784,Lower(0-10),0,1,No recorder(0),0,R,74,Jeff Peterek,195
+Weighter(24-27),25.675675676,Excellent(>180),271,1,Median(0.2-0.28),.268,R,74,George Scott,200
+Weighter(24-27),24.370666667,Lower(0-10),0,1,No recorder(0),0,R,75,Jeff Shaver,195
+Normal(19-24),23.745543254,Median(10-40),11,1,Median(0.2-0.28),.231,R,73,Ken Walters,180
+Weighter(24-27),26.959459459,Excellent(>180),268,1,Median(0.2-0.28),.225,R,74,Gorman Thomas,210
+Weighter(24-27),24.405141678,Lower(0-10),10,1,Median(0.2-0.28),.27,R,73,Paul Dade,185
+Weighter(24-27),26.172646605,Excellent(>180),188,1,Median(0.2-0.28),.247,L,72,Darrell Porter,193
+Normal(19-24),22.426346406,Lower(0-10),0,1,Median(0.2-0.28),.223,L,73,Tim Johnson,170
+Normal(19-24),23.672448980,Lower(0-10),10,1,Median(0.2-0.28),.216,R,70,Fred Stanley,165
+Normal(19-24),22.237755102,Median(10-40),15,1,Median(0.2-0.28),.26,B,70,Larry Bowa,155
+Weighter(24-27),24.404879984,Median(10-40),12,1,Median(0.2-0.28),.27,L,71,Tim Corcoran,175
+Weighter(24-27),25.033783784,High(40-180),146,1,Median(0.2-0.28),.25,L,74,Jim Spencer,195
+Weighter(24-27),25.675675676,Median(10-40),27,1,Median(0.2-0.28),.257,L,74,Pete LaCock,200
+Weighter(24-27),27.121913580,Lower(0-10),7,1,Low(0-0.2),.156,R,72,Carl Morton,200
+Weighter(24-27),25.358989198,Median(10-40),24,1,Median(0.2-0.28),.24,R,72,Gary Gray,187
+Normal(19-24),23.625288805,Median(10-40),31,1,High(>0.28),.307,L,69,Matty Alou,160
+Weighter(24-27),25.033783784,Lower(0-10),0,1,No recorder(0),0,B,74,Pete Filson,195
+Normal(19-24),23.672448980,High(40-180),77,1,Median(0.2-0.28),.26,L,70,Jim Dwyer,165
+Normal(19-24),23.745543254,High(40-180),41,1,Median(0.2-0.28),.235,L,73,Dalton Jones,180
+Normal(19-24),22.313033128,High(40-180),41,1,Median(0.2-0.28),.274,R,71,Rennie Stennett,160
+Normal(19-24),23.745777778,Lower(0-10),0,1,No recorder(0),0,R,75,Jim Gideon,190
+Weighter(24-27),24.391891892,Median(10-40),15,1,Median(0.2-0.28),.234,R,74,Jerry May,190
+Weighter(24-27),25.799444555,Median(10-40),20,1,Median(0.2-0.28),.225,R,71,Rich McKinney,185
+Weighter(24-27),24.370666667,Median(10-40),32,1,Median(0.2-0.28),.259,L,75,Clint Hurdle,195
+Weighter(24-27),24.370666667,High(40-180),66,1,Median(0.2-0.28),.258,R,75,Mike Andrews,195
+Weighter(24-27),25.765817901,Median(10-40),19,1,Median(0.2-0.28),.239,R,72,Bobby Clark,190
+Normal(19-24),23.75,Lower(0-10),0,1,No recorder(0),0,L,74,Jeff Twitty,185
+Weighter(24-27),26.167763158,Excellent(>180),196,1,Median(0.2-0.28),.258,R,76,Cliff Johnson,215
+Weighter(24-27),25.675675676,Lower(0-10),0,1,No recorder(0),0,B,74,Steve Cummings,200
+Weighter(24-27),25.4375,High(40-180),159,1,Median(0.2-0.28),.274,R,76,Donn Clendenon,209
+Weighter(24-27),25.724338525,Median(10-40),29,1,Median(0.2-0.28),.255,R,73,Charlie James,195
+Weighter(24-27),25.724338525,Excellent(>180),218,1,Median(0.2-0.28),.277,R,73,Bob Horner,195
+Normal(19-24),23.085944830,Median(10-40),14,1,Median(0.2-0.28),.241,R,73,Tom Veryzer,175
+Weighter(24-27),25.102162269,Lower(0-10),0,1,No recorder(0),0,R,71,Jose Cecena,180
+Weighter(24-27),24.389795918,Lower(0-10),9,1,Median(0.2-0.28),.205,R,70,George Smith,170
+Weighter(24-27),25.033783784,Median(10-40),33,1,Median(0.2-0.28),.244,R,74,Jim Essian,195
+Weighter(24-27),25.821854913,Lower(0-10),3,1,Median(0.2-0.28),.239,R,66,Onix Concepcion,160
+Normal(19-24),23.625288805,Lower(0-10),8,1,Median(0.2-0.28),.256,L,69,Boots Day,160
+Normal(19-24),21.766747983,Lower(0-10),10,1,Median(0.2-0.28),.228,R,73,Brian Giles,165
+Normal(19-24),21.871111111,High(40-180),117,1,High(>0.28),.285,R,75,Garry Maddox,175
+Normal(19-24),23.672448980,Median(10-40),23,1,Median(0.2-0.28),.249,R,70,Alex Trevino,165
+Weighter(24-27),26.037037037,Median(10-40),18,1,Median(0.2-0.28),.214,R,72,Jim Price,192
+Normal(19-24),23.986510613,Median(10-40),22,1,Median(0.2-0.28),.279,R,71,Felix Millan,172
+Weighter(24-27),27.546122449,Excellent(>180),272,1,High(>0.28),.294,R,70,Steve Garvey,192
+Weighter(24-27),25.620444444,Excellent(>180),200,1,Median(0.2-0.28),.249,L,75,Don Mincher,205
+Weighter(24-27),25.064740101,Lower(0-10),0,1,No recorder(0),0,R,73,Greg Erardi,190
+Weighter(24-27),25.724338525,Lower(0-10),0,1,No recorder(0),0,R,73,Jim Farr,195
+Fat(>27),28.478009259,Median(10-40),11,1,Low(0-0.2),.192,R,72,Tony Cloninger,210
+Weighter(24-27),25.799444555,Median(10-40),30,1,Median(0.2-0.28),.226,L,71,Jim Gosger,185
+Weighter(24-27),26.541836735,Median(10-40),17,1,Median(0.2-0.28),.238,R,70,Chuck Harrison,185
+Weighter(24-27),25.620444444,High(40-180),81,1,Median(0.2-0.28),.269,R,75,Mike Ivie,205
+Weighter(24-27),25.620444444,Lower(0-10),0,1,No recorder(0),0,R,75,Frank Dimichele,205
+Weighter(24-27),24.496383958,Lower(0-10),0,1,Low(0-0.2),.114,B,78,Bob Veale,212
+Weighter(24-27),24.404879984,Median(10-40),40,1,Median(0.2-0.28),.247,L,71,Marvell Wynne,175
+Normal(19-24),23.493243243,Excellent(>180),242,1,Median(0.2-0.28),.278,R,74,Dusty Baker,183
+Weighter(24-27),25.724338525,Lower(0-10),6,1,Median(0.2-0.28),.218,R,73,Tucker Ashford,195
+Weighter(24-27),25.064740101,Median(10-40),16,1,Median(0.2-0.28),.212,R,73,Ned Yost,190
+Weighter(24-27),25.102162269,Median(10-40),33,1,Median(0.2-0.28),.25,B,71,Bob Stinson,180
+Normal(19-24),23.085944830,Lower(0-10),0,1,No recorder(0),0,R,73,Mike Warren,175
+Weighter(24-27),24.950657895,Lower(0-10),6,1,Low(0-0.2),.131,R,76,Gaylord Perry,205
+Weighter(24-27),24.009382623,Median(10-40),16,1,Median(0.2-0.28),.246,L,73,Dave Marshall,182
+Weighter(24-27),25.675675676,Median(10-40),38,1,High(>0.28),.28,R,74,Mickey Hatcher,200
+Normal(19-24),23.745777778,High(40-180),82,1,Median(0.2-0.28),.224,L,75,Roger Repoz,190
+Weighter(24-27),24.370666667,Lower(0-10),0,1,No recorder(0),0,R,75,Bill Fulton,195
+Weighter(24-27),26.870222222,Median(10-40),40,1,Median(0.2-0.28),.249,R,75,John Orsino,215
+Normal(19-24),23.745777778,Lower(0-10),0,1,No recorder(0),0,R,75,Larry Anderson,190
+Weighter(24-27),25.064740101,High(40-180),139,1,Median(0.2-0.28),.253,L,73,Johnny Briggs,190
+Normal(19-24),22.496,Lower(0-10),0,1,No recorder(0),0,R,75,Craig Mitchell,180
+Weighter(24-27),26.167763158,Median(10-40),37,1,Median(0.2-0.28),.229,R,76,Dave Hostetler,215
+Weighter(24-27),25.033783784,Median(10-40),20,1,Median(0.2-0.28),.221,L,74,Bob Jones,195
+Weighter(24-27),24.409722222,High(40-180),162,1,High(>0.28),.296,L,72,Keith Hernandez,180
+Normal(19-24),23.120888889,Lower(0-10),0,1,No recorder(0),0,R,75,Alfredo Martinez,185
+Weighter(24-27),24.995555556,Lower(0-10),0,1,Low(0-0.2),.066,R,75,Dean Chance,200
+Weighter(24-27),25.087770062,High(40-180),123,1,Median(0.2-0.28),.262,L,72,Willie Upshaw,185
+Weighter(24-27),25.824489796,High(40-180),80,1,Median(0.2-0.28),.24,R,70,Dick Green,180
+Weighter(24-27),24.409722222,Median(10-40),14,1,Median(0.2-0.28),.276,L,72,Dane Iorg,180
+Weighter(24-27),25.724338525,Excellent(>180),203,1,Median(0.2-0.28),.276,L,73,Richie Hebner,195
+Weighter(24-27),26.085343228,Median(10-40),20,1,Median(0.2-0.28),.25,R,77,Fran Healy,220
+Weighter(24-27),27.601351351,Median(10-40),15,1,Median(0.2-0.28),.238,R,74,Doc Edwards,215
+Normal(19-24),20.672127704,Median(10-40),13,1,Median(0.2-0.28),.245,B,69,Sandy Alomar,140
+Weighter(24-27),24.246326531,Lower(0-10),1,1,Median(0.2-0.28),.25,R,70,Joe Strain,169
+Normal(19-24),23.731674383,Median(10-40),26,1,High(>0.28),.29,L,72,Gene Richards,175
+Normal(19-24),23.745543254,Excellent(>180),201,1,Median(0.2-0.28),.279,R,73,Buddy Bell,180
+Normal(19-24),23.745777778,Median(10-40),35,1,Median(0.2-0.28),.271,L,75,Al Woods,190
+Normal(19-24),21.766747983,Median(10-40),18,1,Median(0.2-0.28),.271,L,73,Rudy Law,165
+Weighter(24-27),24.306797099,Lower(0-10),0,1,No recorder(0),0,L,77,Joel Davis,205
+Normal(19-24),23.368421053,High(40-180),127,1,Median(0.2-0.28),.245,R,76,Jody Davis,192
+Normal(19-24),22.094285714,Lower(0-10),2,1,Median(0.2-0.28),.25,R,70,Mike Edwards,154
+Normal(19-24),23.731674383,Lower(0-10),0,1,No recorder(0),0,R,72,Bill Mooneyham,175
+Normal(19-24),23.745777778,Lower(0-10),0,1,No recorder(0),0,R,75,John Hobbs,190
+Weighter(24-27),25.675675676,Excellent(>180),245,1,Median(0.2-0.28),.244,R,74,Deron Johnson,200
+Normal(19-24),23.120888889,Lower(0-10),0,1,Low(0-0.2),.17,R,75,John Denny,185
+Normal(19-24),23.242040816,High(40-180),77,1,Median(0.2-0.28),.242,R,70,Don Wert,162
+Normal(19-24),23.731674383,Median(10-40),13,1,Median(0.2-0.28),.227,L,72,Mike Fiore,175
+Normal(19-24),21.697530864,Lower(0-10),6,1,Median(0.2-0.28),.265,B,72,Miguel Dilone,160
+Fat(>27),29.022330644,Excellent(>180),307,1,Median(0.2-0.28),.276,R,73,Greg Luzinski,220
+Normal(19-24),23.707597699,High(40-180),86,1,Median(0.2-0.28),.265,L,71,Bobby Tolan,170
+Normal(19-24),23.125,Lower(0-10),0,1,No recorder(0),0,R,76,Karl Best,190
+Weighter(24-27),24.342105263,Lower(0-10),0,1,No recorder(0),0,L,76,Steve Barr,200
+Weighter(24-27),24.102857143,Median(10-40),26,1,Median(0.2-0.28),.233,R,70,Ron Woods,168
+Weighter(24-27),26.245333333,High(40-180),76,1,Median(0.2-0.28),.268,R,75,Tony Horton,210
+Normal(19-24),23.707597699,High(40-180),82,1,Median(0.2-0.28),.236,R,71,Randy Hundley,170
+Normal(19-24),23.010315414,Lower(0-10),2,1,Median(0.2-0.28),.261,L,71,Jose Tartabull,165
+Normal(19-24),20.540540541,Excellent(>180),235,1,Median(0.2-0.28),.273,L,74,Ben Oglivie,160
+Normal(19-24),21.824324324,Lower(0-10),0,1,No recorder(0),0,R,74,Luis Sanchez,170
+Weighter(24-27),25.107142857,High(40-180),44,1,Median(0.2-0.28),.272,R,70,Bob Johnson,175
+Weighter(24-27),25.056805525,High(40-180),93,1,Median(0.2-0.28),.264,B,67,Don Buford,160
+Normal(19-24),23.731674383,Lower(0-10),1,1,Median(0.2-0.28),.271,L,72,Duane Kuiper,175
+Weighter(24-27),26.870222222,Median(10-40),38,1,Median(0.2-0.28),.247,R,75,Brant Alyea,215
+Weighter(24-27),25.620444444,Median(10-40),21,1,Median(0.2-0.28),.211,L,75,Jerry Narron,205
+Normal(19-24),23.707597699,High(40-180),48,1,Median(0.2-0.28),.258,R,71,Lou Johnson,170
+Weighter(24-27),25.087770062,Median(10-40),14,1,Median(0.2-0.28),.264,L,72,Ken Retzer,185
+Weighter(24-27),25.033783784,Median(10-40),23,1,Median(0.2-0.28),.265,R,74,Mike Brown,195
+Weighter(24-27),25.033783784,Lower(0-10),0,1,No recorder(0),0,R,74,Mike Brown,195
+Weighter(24-27),25.620444444,High(40-180),113,1,Median(0.2-0.28),.26,L,75,Greg Walker,205
+Normal(19-24),23.733552632,Median(10-40),36,1,Median(0.2-0.28),.253,R,76,Terry Harper,195
+Normal(19-24),22.375578704,Median(10-40),40,1,Median(0.2-0.28),.249,R,72,Jerry Royster,165
+Weighter(24-27),25.724338525,Lower(0-10),0,1,No recorder(0),0,L,73,Steve Davis,195
+Weighter(24-27),24.950657895,Lower(0-10),0,1,No recorder(0),0,L,76,Jeff Rineer,205
+Normal(19-24),23.745777778,High(40-180),56,1,Median(0.2-0.28),.272,R,75,Barry Bonnell,190
+Weighter(24-27),25.724338525,Median(10-40),12,1,Low(0-0.2),.154,R,73,Tom Seaver,195
+Weighter(24-27),25.724338525,High(40-180),85,1,Median(0.2-0.28),.251,R,73,Jerry Martin,195
+Weighter(24-27),24.389795918,High(40-180),44,1,Median(0.2-0.28),.267,R,70,Bill Stein,170
+Weighter(24-27),24.409722222,High(40-180),80,1,Median(0.2-0.28),.265,R,72,Joel Youngblood,180
+Weighter(24-27),26.443865741,Excellent(>180),563,1,Median(0.2-0.28),.262,L,72,Reggie Jackson,195
+Normal(19-24),22.148708255,Lower(0-10),7,1,Median(0.2-0.28),.251,L,69,Sonny Jackson,150
+Weighter(24-27),26.085343228,Lower(0-10),0,1,No recorder(0),0,L,77,Mark Mercer,220
+Normal(19-24),21.697530864,Lower(0-10),3,1,Median(0.2-0.28),.236,B,72,Rodney Scott,160
+Weighter(24-27),25.845588235,Median(10-40),12,1,Median(0.2-0.28),.265,L,68,Rich Coggins,170
+Normal(19-24),23.745543254,Median(10-40),14,1,Median(0.2-0.28),.238,R,73,Phil Gagliano,180
+Weighter(24-27),24.409722222,Median(10-40),27,1,Median(0.2-0.28),.237,R,72,Jerry McNertney,180
+Weighter(24-27),26.317567568,High(40-180),72,1,Median(0.2-0.28),.266,L,74,Mitchell Page,205
+Weighter(24-27),25.102162269,Median(10-40),12,1,Median(0.2-0.28),.239,R,71,Kiko Garcia,180
+Normal(19-24),21.833140432,Median(10-40),11,1,Median(0.2-0.28),.254,B,72,Larry Milbourne,161
+Weighter(24-27),25.064740101,High(40-180),59,1,Median(0.2-0.28),.234,B,73,Bill Sudakis,190
+Normal(19-24),22.496,Lower(0-10),0,1,No recorder(0),0,R,75,John Caneira,180
+Normal(19-24),22.094285714,Lower(0-10),8,1,Median(0.2-0.28),.24,R,70,Domingo Ramos,154
+Normal(19-24),23.75,High(40-180),42,1,Median(0.2-0.28),.265,B,74,Ron Oester,185
+Normal(19-24),23.745543254,Median(10-40),34,1,High(>0.28),.28,L,73,Glenn Adams,180
+Normal(19-24),23.085944830,Lower(0-10),0,1,No recorder(0),0,R,73,Clint Zavaras,175
+Weighter(24-27),25.056805525,Excellent(>180),268,1,Median(0.2-0.28),.271,L,67,Joe Morgan,160
+Weighter(24-27),25.765817901,Median(10-40),35,1,Median(0.2-0.28),.267,B,72,R.J. Reynolds,190
+Weighter(24-27),25.559210526,Lower(0-10),0,1,No recorder(0),0,R,76,Mike Parrott,210
+Weighter(24-27),25.033783784,High(40-180),106,1,Median(0.2-0.28),.255,L,74,Lee Thomas,195
+Weighter(24-27),27.601351351,High(40-180),61,1,Median(0.2-0.28),.256,R,74,Ray Fosse,215
+Normal(19-24),23.731674383,Median(10-40),14,1,Median(0.2-0.28),.233,B,72,Paul Popovich,175
+Weighter(24-27),25.102162269,Median(10-40),12,1,Median(0.2-0.28),.216,L,71,John Stephenson,180
+Weighter(24-27),24.409722222,Median(10-40),12,1,Median(0.2-0.28),.229,L,72,Doug Clemens,180
+Weighter(24-27),25.087770062,Lower(0-10),0,1,No recorder(0),0,R,72,Luis Aponte,185
+Weighter(24-27),24.409722222,Lower(0-10),7,1,Low(0-0.2),.199,R,72,Orlando Mercado,180
+Normal(19-24),22.426346406,High(40-180),69,1,Median(0.2-0.28),.239,R,73,Charley Smith,170
+Weighter(24-27),25.675675676,Lower(0-10),0,1,No recorder(0),0,R,74,Paul Boris,200
+Normal(19-24),22.313033128,Lower(0-10),6,1,Median(0.2-0.28),.205,B,71,Buddy Biancalana,160
+Normal(19-24),23.053626543,Lower(0-10),0,1,No recorder(0),0,R,72,De Wayne Buice,170
+Weighter(24-27),25.064740101,Median(10-40),14,1,Median(0.2-0.28),.2,R,73,Bob Uecker,190
+Normal(19-24),23.010315414,Median(10-40),27,1,Median(0.2-0.28),.254,R,71,Felix Torres,165
+Weighter(24-27),25.824489796,High(40-180),52,1,Median(0.2-0.28),.271,L,70,Steve Braun,180
+Weighter(24-27),24.405141678,High(40-180),84,1,Median(0.2-0.28),.271,R,73,Ray Knight,185
+Normal(19-24),23.053626543,Lower(0-10),6,1,Median(0.2-0.28),.238,L,72,Ty Cline,170
+Normal(19-24),21.871111111,Median(10-40),20,1,Median(0.2-0.28),.272,L,75,Thad Bosley,175
+Normal(19-24),23.108108108,Excellent(>180),224,1,Median(0.2-0.28),.266,R,74,Bobby Grich,180
+Normal(19-24),23.731674383,High(40-180),121,1,Median(0.2-0.28),.254,L,72,Jimmie Hall,175
+Weighter(24-27),25.724338525,Median(10-40),26,1,Median(0.2-0.28),.219,R,73,John Boccabella,195
+Normal(19-24),22.955102041,Lower(0-10),1,1,Median(0.2-0.28),.26,L,70,Brock Davis,160
+Weighter(24-27),25.064740101,Lower(0-10),0,1,No recorder(0),0,R,73,Mark Esser,190
+Weighter(24-27),25.033783784,High(40-180),112,1,Median(0.2-0.28),.237,L,74,Curt Blefary,195
+Normal(19-24),22.516447368,Lower(0-10),0,1,No recorder(0),0,R,76,Daryl Smith,185
+Weighter(24-27),25.064740101,Lower(0-10),0,1,No recorder(0),0,R,73,Dave Smith,190
+Normal(19-24),23.745543254,High(40-180),133,1,Median(0.2-0.28),.252,L,73,Mack Jones,180
+Normal(19-24),23.707597699,High(40-180),52,1,Median(0.2-0.28),.226,R,71,Buddy Bradford,170
+Normal(19-24),23.085944830,Median(10-40),17,1,Median(0.2-0.28),.259,L,73,Hosken Powell,175
+Weighter(24-27),24.405141678,Lower(0-10),0,1,No recorder(0),0,L,73,Dave Stapleton,185
+Normal(19-24),23.481703884,High(40-180),41,1,Median(0.2-0.28),.271,R,73,Dave Stapleton,178
+Weighter(24-27),25.033783784,High(40-180),130,1,Median(0.2-0.28),.276,R,74,Gary Ward,195
+Normal(19-24),23.713948389,Lower(0-10),3,1,Low(0-0.2),.136,R,77,Jim Lonborg,200
+Normal(19-24),23.731674383,Median(10-40),32,1,Median(0.2-0.28),.233,R,72,Joe Lis,175
+Weighter(24-27),25.102162269,High(40-180),86,1,Median(0.2-0.28),.253,L,71,Dan Meyer,180
+Weighter(24-27),24.409722222,Median(10-40),19,1,Median(0.2-0.28),.265,L,72,Jim Holt,180
+Weighter(24-27),24.391891892,Lower(0-10),0,1,No recorder(0),0,R,74,Tom Klawitter,190
+Normal(19-24),23.745777778,High(40-180),107,1,Median(0.2-0.28),.274,R,75,Larry Herndon,190
+Normal(19-24),23.713948389,Lower(0-10),0,1,No recorder(0),0,L,77,Gary Christenson,200
+Weighter(24-27),24.306797099,Lower(0-10),0,1,No recorder(0),0,R,77,Jim Wright,205
+Normal(19-24),21.766747983,Lower(0-10),0,1,No recorder(0),0,R,73,Jim Wright,165
+Normal(19-24),23.460455247,Lower(0-10),5,1,Median(0.2-0.28),.255,B,72,Wallace Johnson,173
+Weighter(24-27),24.405141678,Lower(0-10),0,1,No recorder(0),0,L,73,Mike Kinnunen,185
+Normal(19-24),23.053626543,Median(10-40),24,1,Median(0.2-0.28),.236,R,72,Eddie Leon,170
+Normal(19-24),20.749704841,Lower(0-10),0,1,No recorder(0),0,L,77,Dave Rajsich,175
+Weighter(24-27),24.404879984,Median(10-40),21,1,Median(0.2-0.28),.26,R,71,Jim Wohlford,175
+Weighter(24-27),24.3853125,Lower(0-10),10,1,Low(0-0.2),.168,R,80,J.R. Richard,222
+Normal(19-24),20.540540541,Median(10-40),19,1,Median(0.2-0.28),.227,L,74,Bill Voss,160
+Weighter(24-27),25.765817901,High(40-180),121,1,Median(0.2-0.28),.279,R,72,Keith Moreland,190
+Normal(19-24),22.237755102,Lower(0-10),0,1,No recorder(0),0,R,70,Ramon Pena,155
+Weighter(24-27),27.799961420,High(40-180),78,1,High(>0.28),.288,R,72,Alex Johnson,205
+Normal(19-24),23.745543254,Median(10-40),15,1,Median(0.2-0.28),.266,L,73,Wayne Krenchicki,180
+Weighter(24-27),25.799444555,Lower(0-10),0,1,No recorder(0),0,R,71,Chico Escarrega,185
+Normal(19-24),22.313033128,Lower(0-10),10,1,Median(0.2-0.28),.236,R,71,Dave Rosello,160
+Weighter(24-27),25.995377778,Lower(0-10),0,1,No recorder(0),0,R,75,Cardell Camper,208
+Normal(19-24),23.010315414,High(40-180),57,1,Median(0.2-0.28),.244,R,71,Paul Schaal,165
+Weighter(24-27),24.404879984,Median(10-40),13,1,Median(0.2-0.28),.249,R,71,Tito Landrum,175
+Normal(19-24),23.053626543,Median(10-40),14,1,Median(0.2-0.28),.237,R,72,Dave Edwards,170
+Normal(19-24),22.237755102,Lower(0-10),7,1,Median(0.2-0.28),.257,R,70,Mario Guerrero,155
+Normal(19-24),23.745543254,High(40-180),153,1,Median(0.2-0.28),.245,B,73,Tom Tresh,180
+Weighter(24-27),24.391891892,Lower(0-10),0,1,No recorder(0),0,R,74,Mike Overy,190
+Weighter(24-27),24.409722222,Median(10-40),17,1,Median(0.2-0.28),.238,B,72,Ron Roenicke,180
+Normal(19-24),21.697530864,Lower(0-10),7,1,Median(0.2-0.28),.245,R,72,Doug Griffin,160
+Normal(19-24),22.375578704,Lower(0-10),1,1,Low(0-0.2),.172,R,72,Steve Blass,165
+Normal(19-24),21.182432432,Median(10-40),22,1,Median(0.2-0.28),.222,R,74,Johnnie LeMaster,165
+Weighter(24-27),25.064740101,Lower(0-10),0,1,No recorder(0),0,R,73,Craig Chamberlain,190
+Normal(19-24),22.955102041,Lower(0-10),2,1,Median(0.2-0.28),.226,R,70,Nate Oliver,160
+Weighter(24-27),25.102162269,Lower(0-10),5,1,Low(0-0.2),.191,L,71,Ray Sadecki,180
+Normal(19-24),23.745543254,Lower(0-10),6,1,Median(0.2-0.28),.213,R,73,Ken Rudolph,180
+Weighter(24-27),26.317567568,Median(10-40),39,1,High(>0.28),.282,R,74,Wayne Nordhagen,205
+Weighter(24-27),25.107142857,Median(10-40),21,1,Median(0.2-0.28),.257,B,70,Biff Pocoroba,175
+Weighter(24-27),24.391891892,Median(10-40),30,1,Median(0.2-0.28),.234,L,74,Len Matuszek,190
+Weighter(24-27),25.799444555,Lower(0-10),0,1,No recorder(0),0,R,71,Frank Eufemia,185
+Weighter(24-27),24.389795918,Median(10-40),31,1,Median(0.2-0.28),.258,L,70,Joe Lefebvre,170
+Weighter(24-27),24.391891892,Lower(0-10),7,1,Median(0.2-0.28),.201,L,74,Jim Maloney,190
+Normal(19-24),22.237755102,Lower(0-10),5,1,Median(0.2-0.28),.251,R,70,Andre Robertson,155
+Normal(19-24),23.75,Lower(0-10),3,1,Median(0.2-0.28),.204,R,74,Jerry Zimmerman,185
+Weighter(24-27),27.891291410,Lower(0-10),0,1,No recorder(0),0,R,71,Jack Lazorko,200
+Weighter(24-27),26.496726840,Lower(0-10),0,1,No recorder(0),0,R,71,Mike Paxton,190
+Weighter(24-27),25.765817901,Excellent(>180),215,1,Median(0.2-0.28),.273,R,72,Chet Lemon,190
+Weighter(24-27),24.391891892,Lower(0-10),0,1,No recorder(0),0,R,74,Rickey Keeton,190
+Weighter(24-27),24.409722222,Lower(0-10),8,1,Median(0.2-0.28),.264,L,72,Phil Mankowski,180
+Weighter(24-27),25.087770062,High(40-180),93,1,High(>0.28),.281,R,72,Cleon Jones,185
+Normal(19-24),23.053626543,Lower(0-10),5,1,Low(0-0.2),.127,B,72,Joaquin Andujar,170
+Weighter(24-27),24.409722222,High(40-180),90,1,Median(0.2-0.28),.247,L,72,Mike Lum,180
+Normal(19-24),21.871111111,High(40-180),99,1,Median(0.2-0.28),.278,L,75,Johnny Grubb,175
+Weighter(24-27),24.933391003,Median(10-40),25,1,Median(0.2-0.28),.213,R,68,Curt Motton,164
+Weighter(24-27),25.988177895,Excellent(>180),389,1,Median(0.2-0.28),.267,R,73,Johnny Bench,197
+Weighter(24-27),24.409722222,High(40-180),49,1,Median(0.2-0.28),.236,R,72,Dale Berra,180
+Normal(19-24),23.745543254,Lower(0-10),0,1,No recorder(0),0,R,73,Terry Felton,180
+Normal(19-24),23.085944830,Lower(0-10),8,1,Median(0.2-0.28),.236,B,73,Bob Meacham,175
+Weighter(24-27),24.342105263,Lower(0-10),0,1,No recorder(0),0,R,76,Mark Clear,200
+Weighter(24-27),24.389795918,Median(10-40),31,1,Median(0.2-0.28),.248,R,70,Carl Warwick,170
+Weighter(24-27),24.800900732,High(40-180),45,1,Median(0.2-0.28),.223,R,73,Sam Bowens,188
+Weighter(24-27),25.102162269,High(40-180),42,1,Median(0.2-0.28),.245,B,71,George Wright,180
+Weighter(24-27),25.544843520,Median(10-40),37,1,Median(0.2-0.28),.236,R,69,Luis Aguayo,173
+Normal(19-24),23.108108108,Lower(0-10),8,1,Median(0.2-0.28),.228,R,74,Hal Lanier,180
+Weighter(24-27),25.033783784,Lower(0-10),0,1,No recorder(0),0,L,74,Mike Pazik,195
+Weighter(24-27),24.246326531,Median(10-40),27,1,Median(0.2-0.28),.257,B,70,Len Randle,169
+Weighter(24-27),24.409722222,Median(10-40),14,1,Median(0.2-0.28),.25,R,72,Greg Pryor,180
+Weighter(24-27),26.308256173,Median(10-40),27,1,Median(0.2-0.28),.227,L,72,Jim Traber,194
+Normal(19-24),22.955102041,Median(10-40),20,1,Median(0.2-0.28),.244,R,70,Dave Nelson,160
+Weighter(24-27),25.840159630,Lower(0-10),7,1,Median(0.2-0.28),.252,R,69,Lynn Jones,175
+Normal(19-24),22.955102041,Lower(0-10),3,1,Median(0.2-0.28),.245,B,70,Bryan Little,160
+Weighter(24-27),25.840159630,Lower(0-10),5,1,Median(0.2-0.28),.227,R,69,Ken Suarez,175
+Weighter(24-27),25.101869355,Lower(0-10),2,1,Median(0.2-0.28),.277,B,69,Rick Peters,170
+Normal(19-24),23.75,Lower(0-10),6,1,Median(0.2-0.28),.241,L,74,Ron Stone,185
+Normal(19-24),22.638157895,Lower(0-10),0,1,No recorder(0),0,R,76,Rich Barnes,186
+Weighter(24-27),27.194009125,High(40-180),130,1,Median(0.2-0.28),.255,R,71,Tommie Agee,195
+Normal(19-24),23.745543254,Excellent(>180),189,1,Median(0.2-0.28),.257,R,73,Bob Bailey,180
+Weighter(24-27),25.033783784,Median(10-40),19,1,Median(0.2-0.28),.23,R,74,Cap Peterson,195
+Weighter(24-27),24.391891892,Median(10-40),36,1,Median(0.2-0.28),.263,L,74,Ted Uhlaender,190
+Weighter(24-27),26.915096211,Excellent(>180),248,1,High(>0.28),.285,B,71,Ted Simmons,193
+Normal(19-24),22.313033128,Excellent(>180),252,1,Median(0.2-0.28),.277,L,71,Bobby Murcer,160
+Normal(19-24),22.313033128,Lower(0-10),8,1,Median(0.2-0.28),.213,R,71,Dick Tracewski,160
+Weighter(24-27),27.154010519,Lower(0-10),0,1,No recorder(0),0,R,78,Dave Frost,235
+Weighter(24-27),24.409722222,Lower(0-10),0,1,No recorder(0),0,L,72,Mark Souza,180
+Weighter(24-27),25.675675676,Median(10-40),25,1,Median(0.2-0.28),.241,R,74,Bill Nahorodny,200
+Weighter(24-27),25.102162269,High(40-180),163,1,High(>0.28),.305,R,71,Bill Madlock,180
+Weighter(24-27),25.033783784,High(40-180),105,1,Median(0.2-0.28),.254,R,74,Bob Boone,195
+Normal(19-24),22.528250970,Lower(0-10),0,1,No recorder(0),0,L,77,Rick Jones,190
+Weighter(24-27),26.443865741,High(40-180),130,1,Median(0.2-0.28),.278,L,72,Steve Kemp,195
+Normal(19-24),23.672448980,High(40-180),50,1,Median(0.2-0.28),.273,R,70,Rick Burleson,165
+Normal(19-24),21.402018907,Lower(0-10),0,1,No recorder(0),0,R,79,Jim Dorsey,190
+Weighter(24-27),24.409722222,Lower(0-10),0,1,No recorder(0),0,R,72,Mark Ciardi,180
+Weighter(24-27),24.409722222,Lower(0-10),0,1,No recorder(0),0,R,72,Dennis Burtt,180
+Weighter(24-27),25.675675676,Lower(0-10),10,1,Median(0.2-0.28),.266,R,74,Carl Taylor,200
+Normal(19-24),23.108108108,Lower(0-10),4,1,Median(0.2-0.28),.233,R,74,Terry Harmon,180
+Weighter(24-27),26.443865741,High(40-180),80,1,High(>0.28),.29,L,72,Mike Hargrove,195
+Weighter(24-27),24.006756757,Lower(0-10),0,1,No recorder(0),0,R,74,Rich Yett,187
+Weighter(24-27),26.972244898,Lower(0-10),8,1,Median(0.2-0.28),.258,L,70,Steve Hovley,188
+Fat(>27),28.243243243,Median(10-40),15,1,Median(0.2-0.28),.229,R,74,Don Leppert,220
+Weighter(24-27),26.383936949,Lower(0-10),0,1,No recorder(0),0,R,73,Matt Williams,200
+Weighter(24-27),24.370666667,Lower(0-10),0,1,No recorder(0),0,R,75,Jim Burton,195
+Weighter(24-27),26.959459459,Lower(0-10),0,1,No recorder(0),0,R,74,Rick Anderson,210
+Normal(19-24),21.246222222,Lower(0-10),0,1,No recorder(0),0,R,75,Charlie Mitchell,170
+Normal(19-24),23.731674383,Lower(0-10),0,1,No recorder(0),0,R,72,Bill Paschall,175
+Normal(19-24),23.731674383,Lower(0-10),0,1,No recorder(0),0,B,72,John Bohnet,175
+Normal(19-24),23.085944830,Lower(0-10),0,1,No recorder(0),0,R,73,Byron McLaughlin,175
+Weighter(24-27),24.370666667,Excellent(>180),354,1,Median(0.2-0.28),.267,R,75,Lee May,195
+Normal(19-24),22.466216216,Lower(0-10),0,1,No recorder(0),0,L,74,Luis Quintana,175
+Normal(19-24),22.528250970,Lower(0-10),2,1,Low(0-0.2),.154,L,77,Sam McDowell,190
+Weighter(24-27),25.494598765,Median(10-40),20,1,Median(0.2-0.28),.221,R,72,Rick Renick,188
+Weighter(24-27),26.443865741,Lower(0-10),8,1,Median(0.2-0.28),.214,R,72,Jeff Torborg,195
+Normal(19-24),23.745543254,Median(10-40),20,1,Median(0.2-0.28),.213,R,73,Dave Campbell,180
+Weighter(24-27),24.405141678,High(40-180),76,1,Median(0.2-0.28),.264,L,73,Pat Kelly,185
+Normal(19-24),21.697530864,Lower(0-10),7,1,Median(0.2-0.28),.219,B,72,Al Weis,160
+Weighter(24-27),26.578449905,High(40-180),45,1,Median(0.2-0.28),.257,L,69,Jerry Turner,180
+Normal(19-24),22.375578704,Lower(0-10),9,1,Median(0.2-0.28),.22,R,72,Rick Auerbach,165
+Normal(19-24),23.125,Lower(0-10),0,1,No recorder(0),0,R,76,Keith Macwhorter,190
+Weighter(24-27),25.033783784,Lower(0-10),1,1,Low(0-0.2),.146,R,74,Don Wilson,195
+Weighter(24-27),24.342105263,Lower(0-10),0,1,No recorder(0),0,R,76,Jaime Cocanower,200
+Normal(19-24),23.085944830,Lower(0-10),0,1,No recorder(0),0,R,73,Jeff Sellers,175
+Weighter(24-27),25.845588235,Lower(0-10),7,1,Median(0.2-0.28),.23,L,68,Sandy Valdespino,170
+Weighter(24-27),26.317567568,Lower(0-10),0,1,No recorder(0),0,R,74,Steve Senteney,205
+Weighter(24-27),26.443865741,Lower(0-10),0,1,No recorder(0),0,R,72,Howard Bailey,195
+Normal(19-24),22.496,Lower(0-10),0,1,No recorder(0),0,R,75,Jeff Bettendorf,180
+Weighter(24-27),27.571214111,High(40-180),123,1,Median(0.2-0.28),.239,L,73,Ken Phelps,209
+Normal(19-24),22.466216216,Excellent(>180),199,1,High(>0.28),.285,R,74,Cesar Cedeno,175
+Weighter(24-27),25.087770062,Lower(0-10),0,1,No recorder(0),0,R,72,Bob Davidson,185
+Normal(19-24),23.745543254,Median(10-40),11,1,Median(0.2-0.28),.235,R,73,Phil Linz,180
+Normal(19-24),22.955102041,Median(10-40),31,1,High(>0.28),.304,R,70,Manny Mota,160
+Normal(19-24),23.120888889,Lower(0-10),0,1,No recorder(0),0,L,75,Brian Snyder,185
+Weighter(24-27),27.271040648,Lower(0-10),6,1,Median(0.2-0.28),.215,R,77,Steve Renko,230
+Weighter(24-27),25.724338525,Lower(0-10),9,1,Median(0.2-0.28),.243,L,73,Rick Sofield,195
+Weighter(24-27),25.102162269,Lower(0-10),0,1,No recorder(0),0,R,71,Carlos Velazquez,180
+Weighter(24-27),24.995555556,Lower(0-10),0,1,No recorder(0),0,R,75,Roger Miller,200
+Weighter(24-27),24.391891892,Excellent(>180),237,1,Median(0.2-0.28),.259,R,74,Doug DeCinces,190
+Weighter(24-27),24.404879984,High(40-180),41,1,Median(0.2-0.28),.278,R,71,John Castino,175
+Weighter(24-27),26.685306122,High(40-180),96,1,Median(0.2-0.28),.251,L,70,Dave May,186
+Normal(19-24),21.615750843,Median(10-40),20,1,Median(0.2-0.28),.261,R,71,Ron Washington,155
+Normal(19-24),23.672448980,Median(10-40),28,1,Median(0.2-0.28),.236,R,70,Billy Grabarkewitz,165
+Weighter(24-27),27.495111111,High(40-180),110,1,Median(0.2-0.28),.271,L,75,Willie Aikens,220
+Weighter(24-27),26.870222222,High(40-180),138,1,Median(0.2-0.28),.247,R,75,Earl Williams,215
+Weighter(24-27),26.776315789,Lower(0-10),0,1,No recorder(0),0,R,76,Willie Mueller,220
+Normal(19-24),23.731674383,Lower(0-10),0,1,No recorder(0),0,R,72,John Flinn,175
+Normal(19-24),23.745543254,Lower(0-10),7,1,Median(0.2-0.28),.236,R,73,Don Hahn,180
+Normal(19-24),23.731674383,Median(10-40),34,1,Median(0.2-0.28),.22,R,72,Todd Cruz,175
+Weighter(24-27),26.532894737,Median(10-40),22,1,Median(0.2-0.28),.2,R,76,Tom Egan,218
+Normal(19-24),23.731674383,Lower(0-10),1,1,Median(0.2-0.28),.247,R,72,Bob Heise,175
+Weighter(24-27),24.363579080,High(40-180),146,1,Median(0.2-0.28),.257,R,69,Tommy Harper,165
+Weighter(24-27),25.102162269,Median(10-40),16,1,Median(0.2-0.28),.244,B,71,Joe Wallis,180
+Weighter(24-27),25.799444555,High(40-180),111,1,Median(0.2-0.28),.247,R,71,Max Alvis,185
+Weighter(24-27),24.995555556,Excellent(>180),204,1,High(>0.28),.299,R,75,Rico Carty,200
+Weighter(24-27),24.409722222,Median(10-40),34,1,Median(0.2-0.28),.258,L,72,Mike Cubbage,180
+Weighter(24-27),25.460499156,Lower(0-10),0,1,No recorder(0),0,R,73,Les Straker,193
+Normal(19-24),23.707597699,Lower(0-10),8,1,Median(0.2-0.28),.247,L,71,Merritt Ranew,170
+Normal(19-24),23.745543254,Median(10-40),23,1,High(>0.28),.311,L,73,Lyman Bostock,180
+Normal(19-24),21.766747983,Median(10-40),36,1,High(>0.28),.283,R,73,Damaso Garcia,165
+Weighter(24-27),25.620444444,Lower(0-10),0,1,No recorder(0),0,R,75,Don Kainer,205
+Normal(19-24),23.085944830,Lower(0-10),0,1,No recorder(0),0,R,73,Don Gordon,175
+Weighter(24-27),25.064740101,High(40-180),80,1,Median(0.2-0.28),.261,L,73,Roy Howell,190
+Weighter(24-27),27.993421053,Excellent(>180),339,1,Median(0.2-0.28),.266,L,76,Boog Powell,230
+Weighter(24-27),25.724338525,Lower(0-10),0,1,No recorder(0),0,R,73,Sandy Wihtol,195
+Normal(19-24),23.745777778,Median(10-40),12,1,Low(0-0.2),.173,R,75,Sonny Siebert,190
+Normal(19-24),23.120888889,Lower(0-10),0,1,No recorder(0),0,R,75,Jeff Richardson,185
+Weighter(24-27),24.391891892,High(40-180),83,1,Median(0.2-0.28),.251,R,74,Bobby Darwin,190
+Weighter(24-27),24.391891892,Lower(0-10),0,1,No recorder(0),0,L,74,Dennis DeBarr,190
+Weighter(24-27),26.078357469,High(40-180),153,1,Median(0.2-0.28),.267,L,71,Dan Driessen,187
+Weighter(24-27),24.405141678,Lower(0-10),1,1,Median(0.2-0.28),.246,R,73,Bruce Miller,185
+Normal(19-24),23.707597699,Lower(0-10),9,1,Median(0.2-0.28),.264,R,71,Bob Bailor,170
+Normal(19-24),23.672448980,Median(10-40),34,1,Median(0.2-0.28),.269,R,70,Tommy Helms,165
+Weighter(24-27),25.381075183,Excellent(>180),251,1,Median(0.2-0.28),.252,R,71,Tony Armas,182
+Fat(>27),29.146399524,Excellent(>180),325,1,Median(0.2-0.28),.273,R,71,Willie Horton,209
+Weighter(24-27),24.680941358,High(40-180),102,1,High(>0.28),.291,R,72,Lou Piniella,182
+Weighter(24-27),25.460499156,High(40-180),98,1,Median(0.2-0.28),.248,R,73,Butch Hobson,193
+Weighter(24-27),26.317567568,Median(10-40),21,1,Median(0.2-0.28),.262,R,74,John Wathan,205
+Weighter(24-27),26.383936949,Median(10-40),24,1,Median(0.2-0.28),.214,L,73,Hal King,200
+Weighter(24-27),24.306797099,Lower(0-10),5,1,Low(0-0.2),.193,R,77,Mike Krukow,205
+Weighter(24-27),24.409722222,Median(10-40),27,1,Median(0.2-0.28),.223,R,72,Andres Mora,180
+Weighter(24-27),25.620444444,High(40-180),57,1,Median(0.2-0.28),.23,R,75,Barry Foote,205
+Weighter(24-27),27.259183673,Median(10-40),33,1,Median(0.2-0.28),.259,L,70,Ed Ott,190
+Normal(19-24),20.540540541,Lower(0-10),5,1,Median(0.2-0.28),.259,B,74,Alan Wiggins,160
+Weighter(24-27),25.107142857,Lower(0-10),5,1,Low(0-0.2),.189,R,70,Ron Clark,175
+Normal(19-24),22.151315789,Lower(0-10),0,1,No recorder(0),0,R,76,Jay Pettibone,182
+Weighter(24-27),25.102162269,Lower(0-10),0,1,No recorder(0),0,R,71,Glen Cook,180
+Weighter(24-27),24.409722222,Lower(0-10),6,1,Median(0.2-0.28),.26,R,72,Julio Gotay,180
+Weighter(24-27),25.033783784,High(40-180),55,1,Median(0.2-0.28),.23,R,74,Gary Alexander,195
+Weighter(24-27),24.995555556,Excellent(>180),253,1,Median(0.2-0.28),.254,R,75,Andre Thornton,200
+Weighter(24-27),25.620444444,High(40-180),94,1,Median(0.2-0.28),.256,R,75,Bob Oliver,205
+Normal(19-24),23.707597699,Lower(0-10),0,1,No recorder(0),0,R,71,Bill Castro,170
+Weighter(24-27),24.648648649,Lower(0-10),0,1,No recorder(0),0,L,74,Ed Hodge,192
+Weighter(24-27),24.995555556,Lower(0-10),0,1,No recorder(0),0,R,75,Tom Buskey,200
+Weighter(24-27),24.138503086,Lower(0-10),0,1,No recorder(0),0,R,72,Bruce Taylor,178
+Normal(19-24),23.75,Lower(0-10),0,1,No recorder(0),0,R,74,Stan Thomas,185
+Weighter(24-27),25.724338525,High(40-180),115,1,Median(0.2-0.28),.242,R,73,Bob Robertson,195
+Weighter(24-27),24.342105263,Lower(0-10),0,1,No recorder(0),0,R,76,Larry Monroe,200
+Normal(19-24),23.745777778,Lower(0-10),0,1,No recorder(0),0,R,75,Roger Slagle,190
+Normal(19-24),22.851351351,High(40-180),102,1,Median(0.2-0.28),.265,R,74,Ollie Brown,178
+Weighter(24-27),24.404879984,Lower(0-10),0,1,No recorder(0),0,L,71,Jim Campbell,175
+Normal(19-24),22.426346406,Lower(0-10),5,1,Median(0.2-0.28),.214,R,73,Frank Quilici,170
+Normal(19-24),22.466216216,Lower(0-10),0,1,No recorder(0),0,R,74,Curt Kaufman,175
+Normal(19-24),23.75,Excellent(>180),219,1,Median(0.2-0.28),.258,L,74,Joe Pepitone,185
+Weighter(24-27),26.443865741,Lower(0-10),5,1,Low(0-0.2),.115,L,72,Steve Barber,195
+Weighter(24-27),25.102162269,Lower(0-10),0,1,No recorder(0),0,R,71,De Wayne Vaughn,180
+Weighter(24-27),26.541836735,Median(10-40),24,1,Median(0.2-0.28),.238,L,70,Norm Miller,185
+Weighter(24-27),27.043535372,Lower(0-10),0,1,No recorder(0),0,L,73,Bob Galasso,205
+Weighter(24-27),25.087770062,Lower(0-10),0,1,No recorder(0),0,R,72,Rich Wortham,185
+Weighter(24-27),25.162162162,Median(10-40),24,1,Median(0.2-0.28),.261,L,74,Bob Chance,196
+Weighter(24-27),24.363579080,Median(10-40),23,1,Median(0.2-0.28),.237,B,69,Julio Cruz,165
+Weighter(24-27),25.840159630,High(40-180),46,1,Median(0.2-0.28),.272,R,69,Bill Sample,175
+Normal(19-24),21.871111111,Lower(0-10),0,1,No recorder(0),0,L,75,Juan Nieves,175
+Normal(19-24),23.108108108,Lower(0-10),0,1,No recorder(0),0,R,74,Mike Bacsik,180
+Weighter(24-27),26.245333333,High(40-180),46,1,Median(0.2-0.28),.235,R,75,Craig Kusick,210
+Weighter(24-27),24.363579080,Lower(0-10),2,1,Median(0.2-0.28),.212,L,69,Rudy Meoli,165
+Weighter(24-27),24.389795918,High(40-180),147,1,Median(0.2-0.28),.25,L,70,Ruppert Jones,170
+Normal(19-24),23.085944830,Median(10-40),23,1,Median(0.2-0.28),.242,R,73,Glenn Hoffman,175
+Weighter(24-27),25.724338525,Lower(0-10),8,1,Median(0.2-0.28),.228,R,73,Russ Gibson,195
+Normal(19-24),23.108108108,Lower(0-10),0,1,No recorder(0),0,R,74,Phil Huffman,180
+Weighter(24-27),25.064740101,Median(10-40),16,1,Median(0.2-0.28),.274,L,73,Terry Francona,190
+Weighter(24-27),26.245333333,High(40-180),81,1,Median(0.2-0.28),.23,R,75,John Bateman,210
+Normal(19-24),22.466216216,Lower(0-10),6,1,Low(0-0.2),.193,R,74,Luis Pujols,175
+Weighter(24-27),25.064740101,Median(10-40),21,1,Median(0.2-0.28),.241,R,73,Joe Gaines,190
+Weighter(24-27),26.702702703,High(40-180),155,1,Median(0.2-0.28),.251,R,74,Doug Rader,208
+Weighter(24-27),24.405141678,High(40-180),117,1,Median(0.2-0.28),.248,R,73,Mickey Stanley,185
+Normal(19-24),23.713948389,Lower(0-10),0,1,No recorder(0),0,R,77,Steve Brown,200
+Weighter(24-27),24.391891892,Lower(0-10),0,1,No recorder(0),0,R,74,Rick Lysander,190
+Weighter(24-27),25.087770062,High(40-180),78,1,High(>0.28),.286,R,72,Phil Bradley,185
+Normal(19-24),23.672448980,Lower(0-10),3,1,Median(0.2-0.28),.23,R,70,Winston Llenas,165
+Weighter(24-27),25.102162269,Median(10-40),36,1,Median(0.2-0.28),.261,R,71,Charlie Moore,180
+Weighter(24-27),25.799444555,High(40-180),75,1,High(>0.28),.306,L,71,Ralph Garr,185
+Normal(19-24),22.496,Lower(0-10),5,1,Low(0-0.2),.157,R,75,Tommy John,180
+Normal(19-24),23.085944830,Median(10-40),18,1,Median(0.2-0.28),.242,R,73,Bruce Benedict,175
+Fat(>27),28.885135135,High(40-180),69,1,Median(0.2-0.28),.262,R,74,John Ellis,225
+Normal(19-24),23.745543254,High(40-180),64,1,Median(0.2-0.28),.267,B,73,Wes Parker,180
+Weighter(24-27),25.765817901,Lower(0-10),0,1,No recorder(0),0,R,72,Mel Stottlemyre,190
+Normal(19-24),21.246222222,Median(10-40),31,1,Median(0.2-0.28),.268,R,75,David Green,170
+Normal(19-24),23.010315414,Median(10-40),22,1,Median(0.2-0.28),.266,R,71,Reid Nichols,165
+Weighter(24-27),26.245333333,High(40-180),116,1,Median(0.2-0.28),.261,R,75,Rick Reichardt,210
+Weighter(24-27),24.409722222,Lower(0-10),5,1,Low(0-0.2),.164,R,72,Luis Tiant,180
+Normal(19-24),23.75,Lower(0-10),0,1,No recorder(0),0,R,74,Alex Sanchez,185
+Weighter(24-27),25.824489796,Lower(0-10),8,1,Median(0.2-0.28),.271,L,70,Broderick Perkins,180
+Weighter(24-27),24.995555556,High(40-180),78,1,Median(0.2-0.28),.267,R,75,Leon Roberts,200
+Normal(19-24),23.713948389,Lower(0-10),1,1,Low(0-0.2),.151,R,77,Ray Burris,200
+Weighter(24-27),25.559210526,Median(10-40),37,1,Median(0.2-0.28),.253,L,76,Len Gabrielson,210
+Weighter(24-27),26.776315789,High(40-180),81,1,Median(0.2-0.28),.242,L,76,Johnny Edwards,220
+Normal(19-24),23.707597699,Lower(0-10),0,1,No recorder(0),0,R,71,Paul Wilmet,170
+Weighter(24-27),24.391891892,High(40-180),65,1,Median(0.2-0.28),.249,R,74,Tom Grieve,190
+Weighter(24-27),24.409722222,Lower(0-10),0,1,No recorder(0),0,L,72,Bruce Ellingsen,180
+Weighter(24-27),24.342105263,Median(10-40),12,1,Median(0.2-0.28),.213,R,76,Bob Forsch,200
+Normal(19-24),23.733552632,Lower(0-10),0,1,No recorder(0),0,L,76,Gorman Heimueller,195
+Normal(19-24),23.053626543,High(40-180),66,1,Median(0.2-0.28),.276,R,72,Danny Cater,170
+Weighter(24-27),25.675675676,High(40-180),61,1,Median(0.2-0.28),.24,R,74,Bill Schroeder,200
+Weighter(24-27),25.765817901,High(40-180),55,1,Median(0.2-0.28),.233,L,72,Clay Dalrymple,190
+Weighter(24-27),27.891291410,High(40-180),90,1,Median(0.2-0.28),.274,L,71,Carlos May,200
+Weighter(24-27),24.409722222,Excellent(>180),314,1,High(>0.28),.287,B,72,Reggie Smith,180
+Weighter(24-27),24.843030901,Lower(0-10),0,1,Low(0-0.2),.158,R,78,Ron Reed,215
+Normal(19-24),23.745777778,Lower(0-10),0,1,No recorder(0),0,R,75,Fred Howard,190
+Normal(19-24),22.426346406,High(40-180),136,1,Median(0.2-0.28),.261,R,73,Davey Johnson,170
+Weighter(24-27),24.950657895,High(40-180),123,1,Median(0.2-0.28),.278,R,76,Ellis Valentine,205
+Normal(19-24),22.955102041,High(40-180),160,1,Median(0.2-0.28),.271,B,70,Roy White,160
+Weighter(24-27),27.976530612,Lower(0-10),5,1,Median(0.2-0.28),.229,L,70,Mike Brumley,195
+Weighter(24-27),25.107142857,Median(10-40),33,1,Median(0.2-0.28),.235,L,70,Al Luplow,175
+Weighter(24-27),24.391891892,Lower(0-10),0,1,No recorder(0),0,R,74,John Hoover,190
+Weighter(24-27),26.078357469,Excellent(>180),351,1,High(>0.28),.292,R,71,Dick Allen,187
+Weighter(24-27),24.995555556,Median(10-40),17,1,Median(0.2-0.28),.236,R,75,Doug Ault,200
+Normal(19-24),22.375578704,Lower(0-10),3,1,Median(0.2-0.28),.243,R,72,Mark Wagner,165
+Weighter(24-27),24.069657615,Lower(0-10),0,1,No recorder(0),0,R,77,Mike Walters,203
+Weighter(24-27),24.135135135,Excellent(>180),475,1,High(>0.28),.282,L,74,Willie Stargell,188
+Weighter(24-27),25.559210526,Median(10-40),13,1,Median(0.2-0.28),.201,L,76,Steve Carlton,210
+Normal(19-24),21.502908613,Median(10-40),35,1,Median(0.2-0.28),.25,R,73,Jake Wood,163
+Normal(19-24),23.745543254,High(40-180),87,1,Median(0.2-0.28),.258,L,73,Del Unser,180
+Weighter(24-27),25.799444555,Median(10-40),17,1,Median(0.2-0.28),.242,R,71,Bob Brower,185
+Weighter(24-27),27.121913580,Lower(0-10),1,1,Low(0-0.2),.123,R,72,Ray Culp,200
+Weighter(24-27),25.033783784,Median(10-40),33,1,Median(0.2-0.28),.236,R,74,Ivan Murrell,195
+Normal(19-24),23.745543254,High(40-180),93,1,Median(0.2-0.28),.259,B,73,Lee Mazzilli,180
+Normal(19-24),23.707597699,Median(10-40),20,1,Median(0.2-0.28),.258,R,71,Garth Iorg,170
+Normal(19-24),23.75,High(40-180),90,1,Median(0.2-0.28),.245,B,74,Alan Ashby,185
+Weighter(24-27),26.959459459,High(40-180),91,1,Median(0.2-0.28),.247,R,74,Bob Brenly,210
+Weighter(24-27),25.724338525,High(40-180),52,1,High(>0.28),.293,L,73,Ron Blomberg,195
+Weighter(24-27),26.443865741,Lower(0-10),7,1,Median(0.2-0.28),.201,R,72,Jim Rooker,195
+Normal(19-24),23.707597699,Lower(0-10),6,1,Median(0.2-0.28),.228,B,71,Tim Blackwell,170
+Normal(19-24),23.75,Lower(0-10),0,1,No recorder(0),0,R,74,Colby Ward,185
+Normal(19-24),22.237755102,High(40-180),95,1,Median(0.2-0.28),.259,R,70,Jerry Morales,155
+Weighter(24-27),25.101869355,High(40-180),155,1,Median(0.2-0.28),.263,R,69,Davey Lopes,170
+Weighter(24-27),25.765817901,Lower(0-10),6,1,Median(0.2-0.28),.226,R,72,Catfish Hunter,190
+Normal(19-24),23.596064815,Lower(0-10),1,1,Low(0-0.2),.132,R,72,Mario Soto,174
+Normal(19-24),22.955102041,Excellent(>180),291,1,Median(0.2-0.28),.25,R,70,Jimmy Wynn,160
+Weighter(24-27),25.765817901,Lower(0-10),6,1,Median(0.2-0.28),.241,R,72,Hank Allen,190
+Weighter(24-27),25.064740101,High(40-180),151,1,Median(0.2-0.28),.265,R,73,Jim Fregosi,190
+Normal(19-24),22.811632653,Lower(0-10),1,1,Median(0.2-0.28),.24,R,70,Pepe Frias,159
+Weighter(24-27),25.033783784,Excellent(>180),548,1,Median(0.2-0.28),.267,R,74,Mike Schmidt,195
+Normal(19-24),23.053626543,High(40-180),139,1,Median(0.2-0.28),.275,L,72,Willie Montanez,170
+Normal(19-24),22.313033128,Median(10-40),29,1,Median(0.2-0.28),.243,R,71,Rey Quinones,160
+Weighter(24-27),25.799444555,Lower(0-10),6,1,Median(0.2-0.28),.26,L,71,Mike Squires,185
+Weighter(24-27),26.317567568,High(40-180),54,1,Median(0.2-0.28),.255,L,74,Champ Summers,205
+Normal(19-24),23.370844444,Lower(0-10),0,1,No recorder(0),0,R,75,Chuck Porter,187
+Normal(19-24),22.955102041,High(40-180),79,1,Median(0.2-0.28),.259,R,70,Bert Campaneris,160
+Weighter(24-27),27.115714286,Median(10-40),12,1,Median(0.2-0.28),.26,R,70,Bobby Valentine,189
+Weighter(24-27),25.087770062,Lower(0-10),3,1,Median(0.2-0.28),.251,R,72,Rob Andrews,185
+Normal(19-24),23.733552632,High(40-180),134,1,Median(0.2-0.28),.257,L,76,Tom Haller,195
+Weighter(24-27),24.391891892,Lower(0-10),0,1,No recorder(0),0,R,74,Tom Dozier,190
+Weighter(24-27),25.102162269,Median(10-40),14,1,Median(0.2-0.28),.237,L,71,Ed Stroud,180
+Weighter(24-27),25.033783784,High(40-180),73,1,Median(0.2-0.28),.242,R,74,Ron Swoboda,195
+Normal(19-24),23.745543254,Median(10-40),18,1,Median(0.2-0.28),.237,L,73,Harry Spilman,180
+Normal(19-24),23.731674383,Lower(0-10),9,1,Median(0.2-0.28),.226,R,72,Bob Barton,175
+Normal(19-24),23.75,Median(10-40),15,1,Median(0.2-0.28),.265,L,74,Daryl Sconiers,185
+Weighter(24-27),27.216216216,Excellent(>180),252,1,High(>0.28),.297,R,74,Joe Torre,212
+Weighter(24-27),26.383936949,High(40-180),51,1,Median(0.2-0.28),.259,R,73,Al Ferrara,200
+Weighter(24-27),24.342105263,Lower(0-10),0,1,No recorder(0),0,R,76,Rick Steirer,200
+Normal(19-24),23.672448980,High(40-180),148,1,Median(0.2-0.28),.271,R,70,Sixto Lezcano,165
+Weighter(24-27),24.7456,Lower(0-10),0,1,No recorder(0),0,R,75,Al Lachowicz,198
+Weighter(24-27),27.601351351,High(40-180),61,1,Median(0.2-0.28),.212,R,74,Dave Nicholson,215
+Weighter(24-27),24.625798817,High(40-180),41,1,Median(0.2-0.28),.242,R,65,Freddie Patek,148
+Normal(19-24),22.466216216,Median(10-40),14,1,Median(0.2-0.28),.247,R,74,Ken Hubbs,175
+Normal(19-24),22.524693878,Median(10-40),16,1,Median(0.2-0.28),.242,R,70,Pepe Mangual,157
+Weighter(24-27),26.579475309,Median(10-40),31,1,Median(0.2-0.28),.25,L,72,Leron Lee,196
+Weighter(24-27),24.409722222,Lower(0-10),0,1,No recorder(0),0,R,72,Tom McCarthy,180
+Weighter(24-27),25.087770062,Median(10-40),24,1,Median(0.2-0.28),.274,B,72,Steve Ontiveros,185
+Normal(19-24),23.108108108,Excellent(>180),182,1,Median(0.2-0.28),.279,L,74,Willie Davis,180
+Normal(19-24),23.707597699,Lower(0-10),2,1,Median(0.2-0.28),.207,R,71,Tom Lawless,170
+Weighter(24-27),26.245333333,Median(10-40),25,1,Median(0.2-0.28),.251,R,75,Jerry Moses,210
+Weighter(24-27),25.064740101,Excellent(>180),332,1,Median(0.2-0.28),.268,R,73,Bobby Bonds,190
+Weighter(24-27),25.799444555,Lower(0-10),9,1,Low(0-0.2),.133,R,71,Dave McNally,185
+Weighter(24-27),24.952160494,Lower(0-10),1,1,Median(0.2-0.28),.274,B,72,Darrell Brown,184
+Weighter(24-27),25.087770062,High(40-180),45,1,Median(0.2-0.28),.253,R,72,Roy Foster,185
+Weighter(24-27),25.087770062,High(40-180),101,1,Median(0.2-0.28),.25,R,72,Denis Menke,185
+Weighter(24-27),25.675675676,Median(10-40),21,1,Median(0.2-0.28),.243,R,74,Hal Breeden,200
+Normal(19-24),19.787952712,High(40-180),61,1,Median(0.2-0.28),.263,R,73,Manny Trillo,150
+Weighter(24-27),24.404879984,Lower(0-10),4,1,Median(0.2-0.28),.237,R,71,Jackie Gutierrez,175
+Normal(19-24),22.426346406,Lower(0-10),7,1,Median(0.2-0.28),.237,L,73,Jerry Kenney,170
+Weighter(24-27),24.405141678,Median(10-40),31,1,Median(0.2-0.28),.234,R,73,Fred Kendall,185
+Weighter(24-27),25.675675676,Median(10-40),28,1,Median(0.2-0.28),.246,R,74,Mike Anderson,200
+Normal(19-24),23.745777778,Lower(0-10),0,1,No recorder(0),0,R,75,Jim Lewis,190
+Weighter(24-27),26.317567568,Median(10-40),29,1,Median(0.2-0.28),.266,R,74,Joe Charboneau,205
+Weighter(24-27),25.101869355,Median(10-40),11,1,Median(0.2-0.28),.223,R,69,Jimmie Schaffer,170
+Weighter(24-27),24.404879984,Lower(0-10),4,1,Median(0.2-0.28),.248,R,71,Junior Kennedy,175
+Normal(19-24),21.824324324,Lower(0-10),6,1,Median(0.2-0.28),.25,B,74,Wilbur Howard,170
+Normal(19-24),23.108108108,Median(10-40),14,1,Median(0.2-0.28),.248,R,74,Rod Gilbreath,180
+Weighter(24-27),27.703133796,Median(10-40),25,1,Median(0.2-0.28),.259,R,73,Mark Brouhard,210
+Weighter(24-27),26.383936949,Lower(0-10),0,1,No recorder(0),0,L,73,Dan Morogiello,200
+Weighter(24-27),25.033783784,High(40-180),72,1,Median(0.2-0.28),.247,B,74,Mike Young,195
+Normal(19-24),23.085944830,High(40-180),112,1,Median(0.2-0.28),.246,R,73,Chris Speier,175
+Normal(19-24),23.493243243,Median(10-40),15,1,Median(0.2-0.28),.229,B,74,Gene Michael,183
+Normal(19-24),23.010315414,Median(10-40),13,1,Median(0.2-0.28),.217,B,71,Vic Harris,165
+Normal(19-24),21.766747983,Lower(0-10),3,1,Median(0.2-0.28),.22,R,73,Mike Fischlin,165
+Normal(19-24),22.426346406,High(40-180),176,1,Median(0.2-0.28),.261,R,73,Don Money,170
+Weighter(24-27),25.675675676,High(40-180),179,1,Median(0.2-0.28),.264,R,74,Joe Rudi,200
+Weighter(24-27),25.675675676,Excellent(>180),382,1,High(>0.28),.298,R,74,Jim Rice,200
+Normal(19-24),23.75,Lower(0-10),0,1,No recorder(0),0,R,74,Shawn Holman,185
+Normal(19-24),23.125,Lower(0-10),0,1,No recorder(0),0,R,76,Alan Wirth,190
+Normal(19-24),22.148708255,Lower(0-10),1,1,Median(0.2-0.28),.237,R,69,Gil Garrido,150
+Normal(19-24),22.313033128,Median(10-40),22,1,Median(0.2-0.28),.246,R,71,Marty Perez,160
+Normal(19-24),22.822105461,Lower(0-10),4,1,Median(0.2-0.28),.215,L,73,Tom Matchick,173
+Normal(19-24),22.955102041,Lower(0-10),2,1,Median(0.2-0.28),.27,L,70,Jack Perconte,160
+Weighter(24-27),27.194009125,High(40-180),85,1,Median(0.2-0.28),.238,L,71,Ed Kirkpatrick,195
+Weighter(24-27),26.541836735,Median(10-40),39,1,Median(0.2-0.28),.252,R,70,Jerry Grote,185
+Normal(19-24),23.085944830,High(40-180),62,1,Median(0.2-0.28),.22,L,73,Ellie Hendricks,175
+Weighter(24-27),24.391891892,Median(10-40),14,1,Median(0.2-0.28),.231,R,74,Jim Beauchamp,190
+Weighter(24-27),26.959459459,Lower(0-10),0,1,No recorder(0),0,R,74,Terry Wilshusen,210
+Weighter(24-27),24.404879984,High(40-180),45,1,Median(0.2-0.28),.268,B,71,Tito Fuentes,175
+Weighter(24-27),26.153040766,Lower(0-10),3,1,Median(0.2-0.28),.239,R,67,Ron Brand,167
+Normal(19-24),20.918468558,High(40-180),118,1,Median(0.2-0.28),.257,R,71,Leo Cardenas,150
+Normal(19-24),22.162507037,High(40-180),68,1,Median(0.2-0.28),.253,L,73,Art Shamsky,168
+Weighter(24-27),24.165625,Lower(0-10),0,1,No recorder(0),0,R,80,Steve Ellsworth,220
+Weighter(24-27),26.541836735,Excellent(>180),316,1,Median(0.2-0.28),.261,R,70,Ron Cey,185
+Weighter(24-27),26.496726840,Lower(0-10),3,1,Median(0.2-0.28),.215,R,71,Skip Jutze,190
+Weighter(24-27),25.064740101,High(40-180),65,1,Median(0.2-0.28),.255,B,73,Butch Wynegar,190
+Weighter(24-27),27.121913580,High(40-180),59,1,High(>0.28),.288,R,72,Ron LeFlore,200
+Normal(19-24),23.731674383,High(40-180),46,1,Median(0.2-0.28),.263,R,72,Bill Russell,175
+Weighter(24-27),25.765817901,Excellent(>180),201,1,Median(0.2-0.28),.241,R,72,Gene Tenace,190
+Weighter(24-27),25.107142857,Median(10-40),14,1,Median(0.2-0.28),.267,R,70,Bubba Morton,175
+Weighter(24-27),25.799444555,Median(10-40),16,1,Median(0.2-0.28),.245,R,71,Ellie Rodriguez,185
+Weighter(24-27),24.135135135,Median(10-40),14,1,Median(0.2-0.28),.217,B,74,Darrel Chaney,188
+Weighter(24-27),25.675675676,Median(10-40),21,1,Median(0.2-0.28),.224,L,74,Dick Nen,200
+Weighter(24-27),25.033783784,Lower(0-10),0,1,No recorder(0),0,R,74,Bryan Kelly,195
+Weighter(24-27),25.370488889,Excellent(>180),200,1,Median(0.2-0.28),.262,R,75,Bill Freehan,203
+Weighter(24-27),26.541836735,Median(10-40),11,1,Median(0.2-0.28),.248,R,70,Steve Nicosia,185
+Weighter(24-27),24.405141678,Median(10-40),34,1,Median(0.2-0.28),.233,R,73,Ted Savage,185
+Weighter(24-27),24.391891892,Median(10-40),30,1,Median(0.2-0.28),.226,R,74,Pete Mackanin,190
+Weighter(24-27),24.409722222,High(40-180),43,1,Median(0.2-0.28),.257,R,72,Rich Dauer,180
+Weighter(24-27),25.987817685,Lower(0-10),0,1,Median(0.2-0.28),.213,R,69,Mick Kelleher,176
+Normal(19-24),23.053626543,Median(10-40),32,1,Median(0.2-0.28),.259,L,72,Rowland Office,170
+Normal(19-24),23.745543254,Median(10-40),18,1,Median(0.2-0.28),.268,L,73,Rick Leach,180
+Weighter(24-27),24.405141678,High(40-180),166,1,Median(0.2-0.28),.246,L,73,Dwayne Murphy,185
+Normal(19-24),23.75,Median(10-40),12,1,Median(0.2-0.28),.248,L,74,Larry Harlow,185
+Fat(>27),28.744888889,High(40-180),130,1,Median(0.2-0.28),.244,L,75,Mike Epstein,230
+Normal(19-24),23.75,High(40-180),70,1,High(>0.28),.289,B,74,Jerry Mumphrey,185
+Weighter(24-27),24.405141678,Lower(0-10),0,1,Low(0-0.2),.144,R,73,Don Sutton,185
+Weighter(24-27),25.064740101,Median(10-40),22,1,High(>0.28),.283,R,73,Glenn Beckert,190
+Normal(19-24),23.731674383,Lower(0-10),10,1,Median(0.2-0.28),.233,R,72,Ron Davis,175
+Weighter(24-27),24.370666667,High(40-180),68,1,Median(0.2-0.28),.255,R,75,Mike Shannon,195
+Weighter(24-27),24.342105263,Excellent(>180),208,1,Median(0.2-0.28),.261,L,76,Jason Thompson,200
+Normal(19-24),23.625288805,Lower(0-10),9,1,Median(0.2-0.28),.241,B,69,Wayne Tolleson,160
+Weighter(24-27),25.675675676,Lower(0-10),0,1,No recorder(0),0,R,74,John Leister,200
+Weighter(24-27),24.405141678,Lower(0-10),0,1,No recorder(0),0,R,73,Don Cooper,185
+Weighter(24-27),26.443865741,High(40-180),95,1,Median(0.2-0.28),.243,L,72,Mike Jorgensen,195
+Normal(19-24),22.313033128,Lower(0-10),8,1,Median(0.2-0.28),.247,R,71,Ed Romero,160
+Weighter(24-27),25.328579471,Median(10-40),13,1,Median(0.2-0.28),.243,R,73,Rick Joseph,192
+Normal(19-24),21.182432432,Excellent(>180),241,1,High(>0.28),.298,L,74,Cecil Cooper,165
+Normal(19-24),22.496,Median(10-40),36,1,Median(0.2-0.28),.254,R,75,Bill Almon,180
+Weighter(24-27),25.675675676,High(40-180),122,1,Median(0.2-0.28),.24,R,74,Joe Ferguson,200
+Weighter(24-27),26.245333333,Lower(0-10),0,1,No recorder(0),0,R,75,Jeff Jones,210
+Normal(19-24),23.010315414,Lower(0-10),4,1,Median(0.2-0.28),.253,R,71,Jerry Terrell,165
+Weighter(24-27),24.899645809,Lower(0-10),0,1,No recorder(0),0,L,77,John Poloni,210
+Weighter(24-27),25.559210526,High(40-180),62,1,Median(0.2-0.28),.265,L,76,Dave Revering,210
+Normal(19-24),21.520408163,Lower(0-10),7,1,Median(0.2-0.28),.245,L,70,Curt Ford,150
+Normal(19-24),23.108108108,Lower(0-10),3,1,Median(0.2-0.28),.234,R,74,Jerry Dybzinski,180
+Weighter(24-27),26.317567568,Lower(0-10),0,1,No recorder(0),0,L,74,Mike Willis,205
+Weighter(24-27),24.265423527,Median(10-40),13,1,Median(0.2-0.28),.224,L,71,Bob Burda,174
+Weighter(24-27),25.824489796,Median(10-40),26,1,Median(0.2-0.28),.251,L,70,Jesse Gonder,180
+Weighter(24-27),25.087770062,Median(10-40),24,1,Median(0.2-0.28),.243,R,72,Gary Sutherland,185
+Weighter(24-27),25.520531641,Median(10-40),26,1,Median(0.2-0.28),.22,R,71,Bob Coluccio,183
+Normal(19-24),23.010315414,Median(10-40),30,1,Median(0.2-0.28),.257,L,71,Dave Rader,165
+Normal(19-24),23.731674383,Lower(0-10),4,1,Median(0.2-0.28),.232,R,72,Ron Gardenhire,175
+Weighter(24-27),25.537551020,Lower(0-10),9,1,Median(0.2-0.28),.255,L,70,Bill Sharp,178
+Normal(19-24),23.707597699,Median(10-40),19,1,Median(0.2-0.28),.27,R,71,Alan Bannister,170
+Weighter(24-27),27.257523148,Excellent(>180),184,1,High(>0.28),.295,R,72,Bob Watson,201
+Weighter(24-27),24.391891892,High(40-180),131,1,Median(0.2-0.28),.239,R,74,Ken Harrelson,190
+Weighter(24-27),24.668981047,Median(10-40),30,1,Median(0.2-0.28),.215,R,73,Bobby Wine,187
+Weighter(24-27),26.91171875,Lower(0-10),0,1,No recorder(0),0,R,80,Stefan Wever,245
+Weighter(24-27),25.087770062,Median(10-40),32,1,Median(0.2-0.28),.225,R,72,John Kennedy,185
+Normal(19-24),22.918016975,Lower(0-10),2,1,Median(0.2-0.28),.24,B,72,Chico Ruiz,169
+Weighter(24-27),24.141302308,Lower(0-10),0,1,No recorder(0),0,R,73,Dave Johnson,183
+Fat(>27),28.406938776,Median(10-40),25,1,Median(0.2-0.28),.266,L,70,Gail Hopkins,198
+Normal(19-24),23.855263158,Median(10-40),20,1,Median(0.2-0.28),.201,L,76,Doug Frobel,196
+Normal(19-24),22.375578704,Lower(0-10),9,1,Median(0.2-0.28),.248,R,72,Luis Melendez,165
+Weighter(24-27),24.816550926,Lower(0-10),0,1,No recorder(0),0,L,72,Jerry Augustine,183
+Weighter(24-27),25.064740101,Median(10-40),14,1,Low(0-0.2),.188,R,73,Bill Plummer,190
+Weighter(24-27),24.391891892,Median(10-40),31,1,Median(0.2-0.28),.232,B,74,Buck Rodgers,190
+Normal(19-24),23.745543254,Lower(0-10),7,1,Low(0-0.2),.169,R,73,Phil Niekro,180
+Weighter(24-27),24.899645809,Lower(0-10),0,1,No recorder(0),0,L,77,Jeff Holly,210
+Weighter(24-27),25.107142857,Lower(0-10),10,1,Median(0.2-0.28),.268,L,70,Tom Poquette,175
+Normal(19-24),21.871111111,Lower(0-10),0,1,No recorder(0),0,R,75,Eric Hetzel,175
+Normal(19-24),23.085944830,Median(10-40),12,1,Median(0.2-0.28),.254,L,73,Brian Asselstine,175
+Normal(19-24),23.731674383,Median(10-40),28,1,Median(0.2-0.28),.269,L,72,Rick Miller,175
+Weighter(24-27),24.389795918,High(40-180),86,1,Median(0.2-0.28),.263,R,70,Ed Charles,170
+Normal(19-24),22.148708255,Lower(0-10),0,1,Median(0.2-0.28),.21,R,69,Luis Gomez,150
+Fat(>27),28.601973684,Lower(0-10),0,1,No recorder(0),0,R,76,Dave Lemanczyk,235
+Weighter(24-27),25.559210526,Lower(0-10),0,1,No recorder(0),0,R,76,Al Jones,210
+Weighter(24-27),27.259183673,Median(10-40),38,1,Median(0.2-0.28),.244,R,70,Floyd Rayford,190
+Weighter(24-27),24.843030901,Lower(0-10),0,1,No recorder(0),0,R,78,Sam Hinds,215
+Normal(19-24),23.120888889,High(40-180),166,1,Median(0.2-0.28),.264,R,75,Tony Conigliaro,185
+Weighter(24-27),24.306797099,Lower(0-10),0,1,No recorder(0),0,R,77,Clay Christiansen,205
+Weighter(24-27),25.620444444,Lower(0-10),1,1,Low(0-0.2),.162,R,75,Jim Barr,205
+Weighter(24-27),24.363579080,Lower(0-10),7,1,Median(0.2-0.28),.275,L,69,Jerry Remy,165
+Normal(19-24),23.108108108,Lower(0-10),0,1,No recorder(0),0,L,74,Larry Rothschild,180
+Normal(19-24),23.745543254,Median(10-40),26,1,Median(0.2-0.28),.232,R,73,Frank Duffy,180
+Weighter(24-27),24.370666667,Lower(0-10),0,1,No recorder(0),0,B,75,Gary Lance,195
+Weighter(24-27),24.409722222,Median(10-40),13,1,Median(0.2-0.28),.256,L,72,Tom O'Malley,180
+Weighter(24-27),25.107142857,High(40-180),109,1,Median(0.2-0.28),.26,R,70,Phil Garner,175
+Weighter(24-27),25.620444444,Lower(0-10),0,1,No recorder(0),0,R,75,Larry Pashnick,205
+Weighter(24-27),24.389795918,Lower(0-10),0,1,No recorder(0),0,R,70,Todd Fischer,170

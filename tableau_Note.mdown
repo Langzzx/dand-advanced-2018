@@ -1,0 +1,24 @@
+
+
+故事的最终版本： [baseball viz-01](https://public.tableau.com/shared/BTPMT9TNB?:display_count=yes)
+
+# 总结：
+
+通过Tableau探索数据集，建立相应的分组，特别根据身高体重计算得到日常体侧常常使用的BMI, 再通过可视化的方法，找出如何成为一个优秀棒球运动员的身体参数。 
+
+#设计：
+1. 通过直方图和折线图展现不同惯用手对平均打击率和本垒打数量的影响；
+2. 通过可筛选散点图找到身高体重与打击率和本垒打数量；
+3. 最后特别看来BMI与本垒打数量的关系。
+
+#反馈：
+N/A
+
+
+# 资源：
+
+主要参考[官方案例](https://www.tableau.com/learn/tutorials/on-demand/story-points)
+
+
+
+
