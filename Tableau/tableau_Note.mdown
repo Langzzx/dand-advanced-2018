@@ -1,21 +1,28 @@
 
 
-故事的最终版本： [baseball viz-01](https://public.tableau.com/shared/BTPMT9TNB?:display_count=yes)
+##  故事的最终版本：
+> [baseball viz-version2](https://public.tableau.com/profile/zzx7031#!/vizhome/baseball_viz2/Story1?publish=yes)
 
 # 总结：
 
 一个优秀棒球运动员具体是什么样的？ 
-通过Tableau探索数据集，我们发现一个优秀的棒球运动员通常是
+
+1. 通过Tableau探索数据集，我们发现如果惯用手时左手，在avg/HR两项数据的均值上都有明显的优势。
+2. 通过升高和体重的数据，计算可得到的BMI，由此可以看到一般来说，好的运动员BMI更多的处于24-27的范围，基本上没有属于Fat(>27).
+
+所以，一个优秀的棒球运动员要稍微胖一点，但是绝对不能太胖，如果还能把左手练成管用手，数据告诉他，更可能是一个优秀的运动员。 
 
 
 # 设计：
 
 1. 通过直方图和折线图展现不同惯用手对平均打击率和本垒打数量的影响；
-2. 通过可筛选散点图找到身高体重与打击率和本垒打数量；
-3. 最后特别看来BMI与本垒打数量的关系。
+2. 
+2. 通过分页的方法，可看到BMI与打击率和本垒打数量的变化情形。
 
 # 反馈：
-N/A
+改进了展现BMI与HR／Avg的图，通过分页的形式，更有效的展现不同BMI的分布，更容易看到一个优秀的棒球运动员的特质。
+
+[初始版本](https://public.tableau.com/shared/BTPMT9TNB?:display_count=yes)
 
 
 # 资源：
