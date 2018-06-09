@@ -4,21 +4,30 @@
 
 # 总结：
 
-通过Tableau探索数据集，建立相应的分组，特别根据身高体重计算得到日常体侧常常使用的BMI, 再通过可视化的方法，找出如何成为一个优秀棒球运动员的身体参数。 
+一个优秀棒球运动员具体是什么样的？ 
+通过Tableau探索数据集，我们发现一个优秀的棒球运动员通常是
 
-#设计：
+
+# 设计：
+
 1. 通过直方图和折线图展现不同惯用手对平均打击率和本垒打数量的影响；
 2. 通过可筛选散点图找到身高体重与打击率和本垒打数量；
 3. 最后特别看来BMI与本垒打数量的关系。
 
-#反馈：
+# 反馈：
 N/A
 
 
 # 资源：
 
-主要参考[官方案例](https://www.tableau.com/learn/tutorials/on-demand/story-points)
+1. [Office story_example](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/story_example.html)
 
+2. [best-practices_telling_great_stories](https://www.tableau.com/sites/default/files/media/Whitepapers/best-practices_telling_great_stories_zh-cn.pdf)
 
+3. [building_effective_dashboards](https://www.tableau.com/sites/default/files/whitepapers/building_effective_dashboards_zh-cn.pdf)
+
+4. [visual analysis best practices](https://www.tableau.com/sites/default/files/media/Whitepapers/visualanalysisbestpractices_chs_final.pdf)
+
+5. [Tableau Desktop 和 Web 制作帮助](https://onlinehelp.tableau.com/current/pro/desktop/zh-cn/help.htm#default.html)
 
 
